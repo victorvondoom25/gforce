@@ -60,18 +60,15 @@ static void ProcessPgnFile(const std::string& path, SharedState& shared)
         {
             const Move move = moves[i];
 
-            // Skip if the move has no score annotation
             const bool hasScore = hasScores && (i < scores.size());
+            const ScoreType moveScore = hasScore ? scores[i] : Evaluate(pos);
 
-            if (hasScore &&
-                move.IsQuiet() &&
+            if (move.IsQuiet() &&
                 pos.GetNumPieces() >= 4 &&
                 !pos.IsInCheck())
             {
                 // print position and score for debugging
-                //std::cout << "FEN: " << pos.ToFEN() << " score=" << scores[i] << " result=" << static_cast<int>(gameScore) << std::endl;
-
-                const ScoreType moveScore = scores[i]; // White's perspective
+                //std::cout << "FEN: " << pos.ToFEN() << " score=" << moveScore << " result=" << static_cast<int>(gameScore) << std::endl;
 
                 PositionEntry entry{};
                 entry.wdlScore = static_cast<uint8_t>(gameScore);
