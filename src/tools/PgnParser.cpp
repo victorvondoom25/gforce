@@ -65,8 +65,8 @@ static bool ParseCommentScore(const char* token, size_t len, ScoreType& outScore
 
     if (i >= len) return false;
 
-    // Mate score: M<N>
-    if (token[i] == 'M' || token[i] == 'm')
+    // Mate score: M<N> or #<N>
+    if (token[i] == 'M' || token[i] == 'm' || token[i] == '#')
     {
         ++i;
         int mateIn = 0;
@@ -455,33 +455,49 @@ private:
         pendingScore = kNoScore;
     }
 
-    // Comment: read score from first token, discard rest
+    // Comment: read score from first token or from [%eval ...]
     bool readCommentAndExtractScore(ScoreType& outScore)
     {
-        // Skip leading whitespace inside comment
+        // Read the entire comment into a string
+        std::string comment;
         while (!reader.atEof() && reader.peek() != '}')
         {
-            const char c = reader.peek();
-            if (c != ' ' && c != '\t' && c != '\n' && c != '\r') break;
-            reader.get();
+            comment += reader.get();
+        }
+        if (!reader.atEof()) reader.get(); // consume '}'
+
+        // Look for "[%eval " (Lichess standard format)
+        size_t evalPos = comment.find("[%eval ");
+        if (evalPos != std::string::npos)
+        {
+            evalPos += 7; // skip "[%eval "
+            char tokenBuf[64];
+            size_t tokenLen = 0;
+            while (evalPos < comment.length() && tokenLen < sizeof(tokenBuf) - 1)
+            {
+                char c = comment[evalPos++];
+                if (c == ']' || c == ' ') break;
+                tokenBuf[tokenLen++] = c;
+            }
+            tokenBuf[tokenLen] = '\0';
+            return ParseCommentScore(tokenBuf, tokenLen, outScore);
         }
 
-        // Read first token (until whitespace, '/', or '}')
+        // Fallback: extract the very first token in the comment
+        size_t i = 0;
+        while (i < comment.length() && (comment[i] == ' ' || comment[i] == '\t' || comment[i] == '\n' || comment[i] == '\r'))
+            i++;
+            
         char tokenBuf[64];
         size_t tokenLen = 0;
-
-        while (!reader.atEof() && tokenLen < sizeof(tokenBuf) - 1)
+        while (i < comment.length() && tokenLen < sizeof(tokenBuf) - 1)
         {
-            const char c = reader.peek();
+            char c = comment[i++];
             if (c == ' ' || c == '\t' || c == '\n' || c == '\r' || c == '/' || c == '}')
                 break;
-            tokenBuf[tokenLen++] = reader.get();
+            tokenBuf[tokenLen++] = c;
         }
         tokenBuf[tokenLen] = '\0';
-
-        // Consume rest of comment until '}'
-        while (!reader.atEof() && reader.get() != '}') {}
-
         return ParseCommentScore(tokenBuf, tokenLen, outScore);
     }
 
