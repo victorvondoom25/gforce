@@ -2,8 +2,8 @@ token: "YOUR_API_TOKEN"
 url: "https://lichess.org/"
 
 engine:
-  dir: "/app/G-ForceZero/cpp_engine_2.0/"
-  name: "gforce_engine"
+  dir: "/app/gforce/"
+  name: "G-ForceZero"
   protocol: "uci"
   uci_options:
     Threads: 1

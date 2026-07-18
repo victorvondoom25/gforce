@@ -17,11 +17,11 @@ RUN apt-get update && apt-get install -y \
 # Set working directory
 WORKDIR /app
 
-# Copy the entire G-ForceZero repository into the container
-COPY . /app/G-ForceZero
+# Copy the entire gforce repository into the container
+COPY . /app/gforce
 
-# Compile the C++ Engine (using high performance flags)
-WORKDIR /app/G-ForceZero/cpp_engine_2.0
+# Compile the C++ Engine
+WORKDIR /app/gforce
 RUN mkdir -p build && cd build && rm -rf * && cmake .. && make -j4
 # Clone the official Lichess Bot
 WORKDIR /app
@@ -34,10 +34,9 @@ RUN pip3 install -r requirements.txt
 RUN pip3 install Flask
 
 # Copy our custom Render setup files into the bot directory
-RUN cp /app/G-ForceZero/render/config.yml /app/lichess-bot/config.yml
-RUN cp /app/G-ForceZero/render/keep_alive.py /app/lichess-bot/keep_alive.py
-RUN cp /app/G-ForceZero/render/start.sh /app/lichess-bot/start.sh
-RUN cp /app/G-ForceZero/cpp_engine_2.0/book.bin /app/lichess-bot/book.bin || true
+RUN cp /app/gforce/render/config.yml /app/lichess-bot/config.yml
+RUN cp /app/gforce/render/keep_alive.py /app/lichess-bot/keep_alive.py
+RUN cp /app/gforce/render/start.sh /app/lichess-bot/start.sh
 # Make start script executable
 RUN chmod +x /app/lichess-bot/start.sh
 
