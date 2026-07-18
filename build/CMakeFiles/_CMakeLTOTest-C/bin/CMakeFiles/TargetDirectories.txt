@@ -1,0 +1,4 @@
+/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir
+/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir
+/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/edit_cache.dir
+/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/rebuild_cache.dir

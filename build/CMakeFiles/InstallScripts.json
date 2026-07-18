@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/sid/Documents/GitHub/G-ForceZero/build/cmake_install.cmake",
+		"/home/sid/Documents/GitHub/G-ForceZero/build/src/cmake_install.cmake",
+		"/home/sid/Documents/GitHub/G-ForceZero/build/src/engine/cmake_install.cmake",
+		"/home/sid/Documents/GitHub/G-ForceZero/build/src/tools/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
