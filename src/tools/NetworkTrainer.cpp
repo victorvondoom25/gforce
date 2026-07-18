@@ -609,7 +609,7 @@ bool NetworkTrainer::Train()
 {
     InitNetwork();
 
-    if (!m_packedNet.LoadFromFile("eval-82-383B.nnue"))
+    if (!m_packedNet.LoadFromFile("gforce-01.nnue"))
     {
         std::cout << "ERROR: Failed to load packed network" << std::endl;
         return false;

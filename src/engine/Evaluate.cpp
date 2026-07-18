@@ -17,7 +17,7 @@
 #else // !defined(GEFORCE_EVALFILE)
 
     // use eval file
-    const char* c_DefaultEvalFile = "eval-82-383B.nnue";
+    const char* c_DefaultEvalFile = "gforce-01.nnue";
 
 #endif // defined(GEFORCE_EVALFILE)
 

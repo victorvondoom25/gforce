@@ -657,7 +657,7 @@ bool CudaNetworkTrainer::Train()
 {
     InitNetwork();
 
-    if (!UnpackNetwork("eval-82-383B.nnue"))
+    if (!UnpackNetwork("gforce-01.nnue"))
         return false;
 
     // Copy unpacked weights to CUDA
