@@ -1,10 +1,10 @@
 src/engine/CMakeFiles/engine_lib.dir/Move.cpp.o: \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Move.cpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Move.cpp \
  /usr/include/stdc-predef.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Move.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Square.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Bitboard.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Common.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Move.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Square.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Bitboard.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Common.hpp \
  /usr/include/inttypes.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
@@ -304,9 +304,9 @@ src/engine/CMakeFiles/engine_lib.dir/Move.cpp.o: \
  /usr/include/linux/close_range.h /usr/include/bits/ss_flags.h \
  /usr/include/bits/types/struct_sigstack.h /usr/include/bits/sigthread.h \
  /usr/include/bits/signal_ext.h /usr/include/assert.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Piece.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Position.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/PositionHash.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Piece.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Position.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/PositionHash.hpp \
  /usr/include/c++/16/vector /usr/include/c++/16/bits/stl_uninitialized.h \
  /usr/include/c++/16/bits/stl_vector.h \
  /usr/include/c++/16/bits/stl_bvector.h \

@@ -1,8 +1,8 @@
 src/tools/CMakeFiles/trainer.dir/DumpGames.cpp.o: \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/DumpGames.cpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/DumpGames.cpp \
  /usr/include/stdc-predef.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/Common.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Common.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/Common.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Common.hpp \
  /usr/include/inttypes.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
@@ -302,16 +302,16 @@ src/tools/CMakeFiles/trainer.dir/DumpGames.cpp.o: \
  /usr/include/linux/close_range.h /usr/include/bits/ss_flags.h \
  /usr/include/bits/types/struct_sigstack.h /usr/include/bits/sigthread.h \
  /usr/include/bits/signal_ext.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/GameCollection.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/Stream.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/GameCollection.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/Stream.hpp \
  /usr/include/c++/16/vector /usr/include/c++/16/bits/stl_uninitialized.h \
  /usr/include/c++/16/bits/stl_vector.h \
  /usr/include/c++/16/bits/stl_bvector.h \
  /usr/include/c++/16/bits/vector.tcc \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/PositionUtils.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Bitboard.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/PositionUtils.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Bitboard.hpp \
  /usr/include/assert.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Material.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Material.hpp \
  /usr/include/c++/16/random /usr/include/c++/16/bits/random.h \
  /usr/include/c++/16/bits/uniform_int_dist.h \
  /usr/include/c++/16/x86_64-redhat-linux/bits/opt_random.h \
@@ -319,12 +319,12 @@ src/tools/CMakeFiles/trainer.dir/DumpGames.cpp.o: \
  /usr/include/c++/16/bits/stl_numeric.h \
  /usr/include/c++/16/pstl/glue_numeric_defs.h \
  /usr/include/c++/16/pstl/execution_defs.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Move.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Square.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Piece.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Game.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Position.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/PositionHash.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Move.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Square.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Piece.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Game.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Position.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/PositionHash.hpp \
  /usr/include/c++/16/mutex /usr/include/c++/16/bits/chrono.h \
  /usr/include/c++/16/ratio /usr/include/c++/16/ctime \
  /usr/include/c++/16/bits/parse_numbers.h \

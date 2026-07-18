@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/sid/Documents/GitHub/G-ForceZero/G-ForceZero"
-  "/home/sid/Documents/GitHub/G-ForceZero/G-ForceZero.pdb"
+  "/home/sid/Documents/GitHub/gforce/G-ForceZero"
+  "/home/sid/Documents/GitHub/gforce/G-ForceZero.pdb"
   "CMakeFiles/G-ForceZero.dir/link.d"
   "CMakeFiles/G-ForceZero.dir/UCI.cpp.o"
   "CMakeFiles/G-ForceZero.dir/UCI.cpp.o.d"

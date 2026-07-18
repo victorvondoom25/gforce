@@ -1,10 +1,10 @@
 src/tools/CMakeFiles/trainer.dir/net/Network.cpp.o: \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/Network.cpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/Network.cpp \
  /usr/include/stdc-predef.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/Network.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/Common.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/../Common.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/../../engine/Common.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/Network.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/Common.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/../Common.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/../../engine/Common.hpp \
  /usr/include/inttypes.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
@@ -304,13 +304,13 @@ src/tools/CMakeFiles/trainer.dir/net/Network.cpp.o: \
  /usr/include/linux/close_range.h /usr/include/bits/ss_flags.h \
  /usr/include/bits/types/struct_sigstack.h /usr/include/bits/sigthread.h \
  /usr/include/bits/signal_ext.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/../../engine/Memory.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/../../engine/Math.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/../../engine/Memory.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/../../engine/Math.hpp \
  /usr/include/c++/16/vector /usr/include/c++/16/bits/stl_uninitialized.h \
  /usr/include/c++/16/bits/stl_vector.h \
  /usr/include/c++/16/bits/stl_bvector.h \
  /usr/include/c++/16/bits/vector.tcc \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/Node.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/Node.hpp \
  /usr/include/c++/16/span /usr/include/c++/16/array \
  /usr/include/c++/16/memory /usr/include/c++/16/bits/stl_tempbuf.h \
  /usr/include/c++/16/bits/stl_raw_storage_iter.h \
@@ -327,20 +327,20 @@ src/tools/CMakeFiles/trainer.dir/net/Network.cpp.o: \
  /usr/include/c++/16/bits/ranges_algobase.h \
  /usr/include/c++/16/pstl/glue_memory_defs.h \
  /usr/include/c++/16/pstl/execution_defs.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/Gradient.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/Gradient.hpp \
  /usr/include/c++/16/deque /usr/include/c++/16/bits/stl_deque.h \
  /usr/include/c++/16/bits/deque.tcc /usr/include/c++/16/mutex \
  /usr/include/c++/16/bits/chrono.h /usr/include/c++/16/ratio \
  /usr/include/c++/16/ctime /usr/include/c++/16/bits/parse_numbers.h \
  /usr/include/c++/16/bits/std_mutex.h \
  /usr/include/c++/16/bits/unique_lock.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/WeightsStorage.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/FullyConnectedNode.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/TrainableNode.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/SparseBinaryInputNode.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/SparseInputNode.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/CombiningNode.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/../ThreadPool.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/WeightsStorage.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/FullyConnectedNode.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/TrainableNode.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/SparseBinaryInputNode.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/SparseInputNode.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/CombiningNode.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/../ThreadPool.hpp \
  /usr/include/c++/16/thread /usr/include/c++/16/stop_token \
  /usr/include/c++/16/bits/std_thread.h /usr/include/c++/16/semaphore \
  /usr/include/c++/16/bits/semaphore_base.h \
@@ -355,9 +355,9 @@ src/tools/CMakeFiles/trainer.dir/net/Network.cpp.o: \
  /usr/include/c++/16/bits/enable_special_members.h \
  /usr/include/c++/16/bits/node_handle.h \
  /usr/include/c++/16/bits/binders.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/../../engine/PackedNeuralNetwork.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/../../engine/Waitable.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/../minitrace/minitrace.h \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/../../engine/PackedNeuralNetwork.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/../../engine/Waitable.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/../minitrace/minitrace.h \
  /usr/include/c++/16/random /usr/include/c++/16/bits/random.h \
  /usr/include/c++/16/bits/uniform_int_dist.h \
  /usr/include/c++/16/x86_64-redhat-linux/bits/opt_random.h \

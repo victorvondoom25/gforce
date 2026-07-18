@@ -1,10 +1,10 @@
 src/tools/CMakeFiles/trainer.dir/net/Node.cpp.o: \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/Node.cpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/Node.cpp \
  /usr/include/stdc-predef.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/Node.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/Common.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/../Common.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/../../engine/Common.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/Node.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/Common.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/../Common.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/../../engine/Common.hpp \
  /usr/include/inttypes.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
@@ -304,8 +304,8 @@ src/tools/CMakeFiles/trainer.dir/net/Node.cpp.o: \
  /usr/include/linux/close_range.h /usr/include/bits/ss_flags.h \
  /usr/include/bits/types/struct_sigstack.h /usr/include/bits/sigthread.h \
  /usr/include/bits/signal_ext.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/../../engine/Memory.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/../../engine/Math.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/../../engine/Memory.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/../../engine/Math.hpp \
  /usr/include/c++/16/vector /usr/include/c++/16/bits/stl_uninitialized.h \
  /usr/include/c++/16/bits/stl_vector.h \
  /usr/include/c++/16/bits/stl_bvector.h \

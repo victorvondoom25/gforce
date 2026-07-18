@@ -1,5 +1,5 @@
 src/tools/CMakeFiles/trainer.dir/minitrace/minitrace.c.o: \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/minitrace/minitrace.c \
+ /home/sid/Documents/GitHub/gforce/src/tools/minitrace/minitrace.c \
  /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
@@ -57,7 +57,7 @@ src/tools/CMakeFiles/trainer.dir/minitrace/minitrace.c.o: \
  /usr/include/bits/environments.h /usr/include/bits/confname.h \
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
  /usr/include/bits/unistd_ext.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/minitrace/minitrace.h \
+ /home/sid/Documents/GitHub/gforce/src/tools/minitrace/minitrace.h \
  /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \

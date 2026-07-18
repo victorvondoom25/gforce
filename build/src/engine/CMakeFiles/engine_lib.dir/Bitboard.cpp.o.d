@@ -1,8 +1,8 @@
 src/engine/CMakeFiles/engine_lib.dir/Bitboard.cpp.o: \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Bitboard.cpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Bitboard.cpp \
  /usr/include/stdc-predef.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Bitboard.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Common.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Bitboard.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Common.hpp \
  /usr/include/inttypes.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
@@ -302,4 +302,4 @@ src/engine/CMakeFiles/engine_lib.dir/Bitboard.cpp.o: \
  /usr/include/linux/close_range.h /usr/include/bits/ss_flags.h \
  /usr/include/bits/types/struct_sigstack.h /usr/include/bits/sigthread.h \
  /usr/include/bits/signal_ext.h /usr/include/assert.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Square.hpp
+ /home/sid/Documents/GitHub/gforce/src/engine/Square.hpp

@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = 
 
-C_FLAGS = -g -flto=auto -fno-fat-lto-objects
+C_FLAGS = -flto=auto -fno-fat-lto-objects
 

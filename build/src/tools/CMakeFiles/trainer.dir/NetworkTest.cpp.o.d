@@ -1,8 +1,8 @@
 src/tools/CMakeFiles/trainer.dir/NetworkTest.cpp.o: \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/NetworkTest.cpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/NetworkTest.cpp \
  /usr/include/stdc-predef.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/Common.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Common.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/Common.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Common.hpp \
  /usr/include/inttypes.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
@@ -302,15 +302,15 @@ src/tools/CMakeFiles/trainer.dir/NetworkTest.cpp.o: \
  /usr/include/linux/close_range.h /usr/include/bits/ss_flags.h \
  /usr/include/bits/types/struct_sigstack.h /usr/include/bits/sigthread.h \
  /usr/include/bits/signal_ext.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/Network.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/Common.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/../../engine/Memory.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/../../engine/Math.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/Network.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/Common.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/../../engine/Memory.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/../../engine/Math.hpp \
  /usr/include/c++/16/vector /usr/include/c++/16/bits/stl_uninitialized.h \
  /usr/include/c++/16/bits/stl_vector.h \
  /usr/include/c++/16/bits/stl_bvector.h \
  /usr/include/c++/16/bits/vector.tcc \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/Node.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/Node.hpp \
  /usr/include/c++/16/span /usr/include/c++/16/array \
  /usr/include/c++/16/memory /usr/include/c++/16/bits/stl_tempbuf.h \
  /usr/include/c++/16/bits/stl_raw_storage_iter.h \
@@ -327,19 +327,19 @@ src/tools/CMakeFiles/trainer.dir/NetworkTest.cpp.o: \
  /usr/include/c++/16/bits/ranges_algobase.h \
  /usr/include/c++/16/pstl/glue_memory_defs.h \
  /usr/include/c++/16/pstl/execution_defs.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/Gradient.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/Gradient.hpp \
  /usr/include/c++/16/deque /usr/include/c++/16/bits/stl_deque.h \
  /usr/include/c++/16/bits/deque.tcc /usr/include/c++/16/mutex \
  /usr/include/c++/16/bits/chrono.h /usr/include/c++/16/ratio \
  /usr/include/c++/16/ctime /usr/include/c++/16/bits/parse_numbers.h \
  /usr/include/c++/16/bits/std_mutex.h \
  /usr/include/c++/16/bits/unique_lock.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/SparseBinaryInputNode.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/TrainableNode.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/WeightsStorage.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/FullyConnectedNode.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/net/ActivationNode.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/PackedNeuralNetwork.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/SparseBinaryInputNode.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/TrainableNode.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/WeightsStorage.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/FullyConnectedNode.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/net/ActivationNode.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/PackedNeuralNetwork.hpp \
  /usr/include/c++/16/iomanip /usr/include/c++/16/locale \
  /usr/include/c++/16/bits/locale_facets_nonio.h \
  /usr/include/c++/16/x86_64-redhat-linux/bits/time_members.h \

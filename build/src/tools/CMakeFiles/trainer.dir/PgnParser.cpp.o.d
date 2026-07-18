@@ -1,11 +1,11 @@
 src/tools/CMakeFiles/trainer.dir/PgnParser.cpp.o: \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/PgnParser.cpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/PgnParser.cpp \
  /usr/include/stdc-predef.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/PgnParser.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Game.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Position.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/PositionHash.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Common.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/PgnParser.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Game.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Position.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/PositionHash.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Common.hpp \
  /usr/include/inttypes.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
@@ -305,9 +305,9 @@ src/tools/CMakeFiles/trainer.dir/PgnParser.cpp.o: \
  /usr/include/linux/close_range.h /usr/include/bits/ss_flags.h \
  /usr/include/bits/types/struct_sigstack.h /usr/include/bits/sigthread.h \
  /usr/include/bits/signal_ext.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Piece.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Square.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Bitboard.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Piece.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Square.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Bitboard.hpp \
  /usr/include/assert.h /usr/include/c++/16/vector \
  /usr/include/c++/16/bits/stl_uninitialized.h \
  /usr/include/c++/16/bits/stl_vector.h \
@@ -323,8 +323,8 @@ src/tools/CMakeFiles/trainer.dir/PgnParser.cpp.o: \
  /usr/include/c++/16/bits/enable_special_members.h \
  /usr/include/c++/16/bits/node_handle.h /usr/include/c++/16/array \
  /usr/include/c++/16/bits/binders.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Move.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Score.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Move.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Score.hpp \
  /usr/include/c++/16/sstream /usr/include/c++/16/bits/sstream.tcc \
  /usr/include/c++/16/iomanip /usr/include/c++/16/locale \
  /usr/include/c++/16/bits/locale_facets_nonio.h /usr/include/c++/16/ctime \

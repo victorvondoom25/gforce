@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sid/Documents/GitHub/G-ForceZero
+CMAKE_SOURCE_DIR = /home/sid/Documents/GitHub/gforce
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sid/Documents/GitHub/G-ForceZero/build
+CMAKE_BINARY_DIR = /home/sid/Documents/GitHub/gforce/build
 
 # Include any dependencies generated for this target.
 include src/engine/CMakeFiles/G-ForceZero.dir/depend.make
@@ -73,18 +73,18 @@ src/engine/CMakeFiles/G-ForceZero.dir/codegen:
 .PHONY : src/engine/CMakeFiles/G-ForceZero.dir/codegen
 
 src/engine/CMakeFiles/G-ForceZero.dir/UCI.cpp.o: src/engine/CMakeFiles/G-ForceZero.dir/flags.make
-src/engine/CMakeFiles/G-ForceZero.dir/UCI.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/UCI.cpp
+src/engine/CMakeFiles/G-ForceZero.dir/UCI.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/UCI.cpp
 src/engine/CMakeFiles/G-ForceZero.dir/UCI.cpp.o: src/engine/CMakeFiles/G-ForceZero.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/engine/CMakeFiles/G-ForceZero.dir/UCI.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/G-ForceZero.dir/UCI.cpp.o -MF CMakeFiles/G-ForceZero.dir/UCI.cpp.o.d -o CMakeFiles/G-ForceZero.dir/UCI.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/UCI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/engine/CMakeFiles/G-ForceZero.dir/UCI.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/G-ForceZero.dir/UCI.cpp.o -MF CMakeFiles/G-ForceZero.dir/UCI.cpp.o.d -o CMakeFiles/G-ForceZero.dir/UCI.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/UCI.cpp
 
 src/engine/CMakeFiles/G-ForceZero.dir/UCI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/G-ForceZero.dir/UCI.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/UCI.cpp > CMakeFiles/G-ForceZero.dir/UCI.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/UCI.cpp > CMakeFiles/G-ForceZero.dir/UCI.cpp.i
 
 src/engine/CMakeFiles/G-ForceZero.dir/UCI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/G-ForceZero.dir/UCI.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/UCI.cpp -o CMakeFiles/G-ForceZero.dir/UCI.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/UCI.cpp -o CMakeFiles/G-ForceZero.dir/UCI.cpp.s
 
 # Object files for target G-ForceZero
 G__ForceZero_OBJECTS = \
@@ -93,23 +93,23 @@ G__ForceZero_OBJECTS = \
 # External object files for target G-ForceZero
 G__ForceZero_EXTERNAL_OBJECTS =
 
-/home/sid/Documents/GitHub/G-ForceZero/G-ForceZero: src/engine/CMakeFiles/G-ForceZero.dir/UCI.cpp.o
-/home/sid/Documents/GitHub/G-ForceZero/G-ForceZero: src/engine/CMakeFiles/G-ForceZero.dir/build.make
-/home/sid/Documents/GitHub/G-ForceZero/G-ForceZero: src/engine/CMakeFiles/G-ForceZero.dir/compiler_depend.ts
-/home/sid/Documents/GitHub/G-ForceZero/G-ForceZero: lib/libengine_lib.a
-/home/sid/Documents/GitHub/G-ForceZero/G-ForceZero: src/engine/CMakeFiles/G-ForceZero.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/sid/Documents/GitHub/G-ForceZero/G-ForceZero"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/G-ForceZero.dir/link.txt --verbose=$(VERBOSE)
+/home/sid/Documents/GitHub/gforce/G-ForceZero: src/engine/CMakeFiles/G-ForceZero.dir/UCI.cpp.o
+/home/sid/Documents/GitHub/gforce/G-ForceZero: src/engine/CMakeFiles/G-ForceZero.dir/build.make
+/home/sid/Documents/GitHub/gforce/G-ForceZero: src/engine/CMakeFiles/G-ForceZero.dir/compiler_depend.ts
+/home/sid/Documents/GitHub/gforce/G-ForceZero: lib/libengine_lib.a
+/home/sid/Documents/GitHub/gforce/G-ForceZero: src/engine/CMakeFiles/G-ForceZero.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/sid/Documents/GitHub/gforce/G-ForceZero"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/G-ForceZero.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/engine/CMakeFiles/G-ForceZero.dir/build: /home/sid/Documents/GitHub/G-ForceZero/G-ForceZero
+src/engine/CMakeFiles/G-ForceZero.dir/build: /home/sid/Documents/GitHub/gforce/G-ForceZero
 .PHONY : src/engine/CMakeFiles/G-ForceZero.dir/build
 
 src/engine/CMakeFiles/G-ForceZero.dir/clean:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && $(CMAKE_COMMAND) -P CMakeFiles/G-ForceZero.dir/cmake_clean.cmake
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && $(CMAKE_COMMAND) -P CMakeFiles/G-ForceZero.dir/cmake_clean.cmake
 .PHONY : src/engine/CMakeFiles/G-ForceZero.dir/clean
 
 src/engine/CMakeFiles/G-ForceZero.dir/depend:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sid/Documents/GitHub/G-ForceZero /home/sid/Documents/GitHub/G-ForceZero/src/engine /home/sid/Documents/GitHub/G-ForceZero/build /home/sid/Documents/GitHub/G-ForceZero/build/src/engine /home/sid/Documents/GitHub/G-ForceZero/build/src/engine/CMakeFiles/G-ForceZero.dir/DependInfo.cmake "--color=$(COLOR)" G-ForceZero
+	cd /home/sid/Documents/GitHub/gforce/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sid/Documents/GitHub/gforce /home/sid/Documents/GitHub/gforce/src/engine /home/sid/Documents/GitHub/gforce/build /home/sid/Documents/GitHub/gforce/build/src/engine /home/sid/Documents/GitHub/gforce/build/src/engine/CMakeFiles/G-ForceZero.dir/DependInfo.cmake "--color=$(COLOR)" G-ForceZero
 .PHONY : src/engine/CMakeFiles/G-ForceZero.dir/depend
 

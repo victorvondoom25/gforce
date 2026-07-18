@@ -1,8 +1,8 @@
 src/engine/CMakeFiles/engine_lib.dir/Numa.cpp.o: \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Numa.cpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Numa.cpp \
  /usr/include/stdc-predef.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Numa.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Common.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Numa.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Common.hpp \
  /usr/include/inttypes.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
@@ -306,4 +306,4 @@ src/engine/CMakeFiles/engine_lib.dir/Numa.cpp.o: \
  /usr/include/c++/16/bits/stl_vector.h \
  /usr/include/c++/16/bits/stl_bvector.h \
  /usr/include/c++/16/bits/vector.tcc \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Memory.hpp
+ /home/sid/Documents/GitHub/gforce/src/engine/Memory.hpp

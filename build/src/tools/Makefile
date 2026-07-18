@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sid/Documents/GitHub/G-ForceZero
+CMAKE_SOURCE_DIR = /home/sid/Documents/GitHub/gforce
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sid/Documents/GitHub/G-ForceZero/build
+CMAKE_BINARY_DIR = /home/sid/Documents/GitHub/gforce/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles /home/sid/Documents/GitHub/G-ForceZero/build/src/tools//CMakeFiles/progress.marks
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles 0
+	cd /home/sid/Documents/GitHub/gforce/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/sid/Documents/GitHub/gforce/build/CMakeFiles /home/sid/Documents/GitHub/gforce/build/src/tools//CMakeFiles/progress.marks
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sid/Documents/GitHub/gforce/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/clean
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/preinstall
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/preinstall
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/sid/Documents/GitHub/gforce/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/tools/CMakeFiles/trainer.dir/rule:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/CMakeFiles/trainer.dir/rule
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/CMakeFiles/trainer.dir/rule
 .PHONY : src/tools/CMakeFiles/trainer.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ trainer: src/tools/CMakeFiles/trainer.dir/rule
 
 # fast build rule for target.
 trainer/fast:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/build
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/build
 .PHONY : trainer/fast
 
 AnalyzeGames.o: AnalyzeGames.cpp.o
@@ -135,7 +135,7 @@ AnalyzeGames.o: AnalyzeGames.cpp.o
 
 # target to build an object file
 AnalyzeGames.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/AnalyzeGames.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/AnalyzeGames.cpp.o
 .PHONY : AnalyzeGames.cpp.o
 
 AnalyzeGames.i: AnalyzeGames.cpp.i
@@ -143,7 +143,7 @@ AnalyzeGames.i: AnalyzeGames.cpp.i
 
 # target to preprocess a source file
 AnalyzeGames.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/AnalyzeGames.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/AnalyzeGames.cpp.i
 .PHONY : AnalyzeGames.cpp.i
 
 AnalyzeGames.s: AnalyzeGames.cpp.s
@@ -151,7 +151,7 @@ AnalyzeGames.s: AnalyzeGames.cpp.s
 
 # target to generate assembly for a file
 AnalyzeGames.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/AnalyzeGames.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/AnalyzeGames.cpp.s
 .PHONY : AnalyzeGames.cpp.s
 
 DumpGames.o: DumpGames.cpp.o
@@ -159,7 +159,7 @@ DumpGames.o: DumpGames.cpp.o
 
 # target to build an object file
 DumpGames.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/DumpGames.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/DumpGames.cpp.o
 .PHONY : DumpGames.cpp.o
 
 DumpGames.i: DumpGames.cpp.i
@@ -167,7 +167,7 @@ DumpGames.i: DumpGames.cpp.i
 
 # target to preprocess a source file
 DumpGames.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/DumpGames.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/DumpGames.cpp.i
 .PHONY : DumpGames.cpp.i
 
 DumpGames.s: DumpGames.cpp.s
@@ -175,7 +175,7 @@ DumpGames.s: DumpGames.cpp.s
 
 # target to generate assembly for a file
 DumpGames.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/DumpGames.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/DumpGames.cpp.s
 .PHONY : DumpGames.cpp.s
 
 EndgamePositionsGenerator.o: EndgamePositionsGenerator.cpp.o
@@ -183,7 +183,7 @@ EndgamePositionsGenerator.o: EndgamePositionsGenerator.cpp.o
 
 # target to build an object file
 EndgamePositionsGenerator.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/EndgamePositionsGenerator.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/EndgamePositionsGenerator.cpp.o
 .PHONY : EndgamePositionsGenerator.cpp.o
 
 EndgamePositionsGenerator.i: EndgamePositionsGenerator.cpp.i
@@ -191,7 +191,7 @@ EndgamePositionsGenerator.i: EndgamePositionsGenerator.cpp.i
 
 # target to preprocess a source file
 EndgamePositionsGenerator.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/EndgamePositionsGenerator.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/EndgamePositionsGenerator.cpp.i
 .PHONY : EndgamePositionsGenerator.cpp.i
 
 EndgamePositionsGenerator.s: EndgamePositionsGenerator.cpp.s
@@ -199,7 +199,7 @@ EndgamePositionsGenerator.s: EndgamePositionsGenerator.cpp.s
 
 # target to generate assembly for a file
 EndgamePositionsGenerator.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/EndgamePositionsGenerator.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/EndgamePositionsGenerator.cpp.s
 .PHONY : EndgamePositionsGenerator.cpp.s
 
 EndgameValidation.o: EndgameValidation.cpp.o
@@ -207,7 +207,7 @@ EndgameValidation.o: EndgameValidation.cpp.o
 
 # target to build an object file
 EndgameValidation.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/EndgameValidation.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/EndgameValidation.cpp.o
 .PHONY : EndgameValidation.cpp.o
 
 EndgameValidation.i: EndgameValidation.cpp.i
@@ -215,7 +215,7 @@ EndgameValidation.i: EndgameValidation.cpp.i
 
 # target to preprocess a source file
 EndgameValidation.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/EndgameValidation.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/EndgameValidation.cpp.i
 .PHONY : EndgameValidation.cpp.i
 
 EndgameValidation.s: EndgameValidation.cpp.s
@@ -223,7 +223,7 @@ EndgameValidation.s: EndgameValidation.cpp.s
 
 # target to generate assembly for a file
 EndgameValidation.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/EndgameValidation.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/EndgameValidation.cpp.s
 .PHONY : EndgameValidation.cpp.s
 
 FindMagics.o: FindMagics.cpp.o
@@ -231,7 +231,7 @@ FindMagics.o: FindMagics.cpp.o
 
 # target to build an object file
 FindMagics.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/FindMagics.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/FindMagics.cpp.o
 .PHONY : FindMagics.cpp.o
 
 FindMagics.i: FindMagics.cpp.i
@@ -239,7 +239,7 @@ FindMagics.i: FindMagics.cpp.i
 
 # target to preprocess a source file
 FindMagics.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/FindMagics.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/FindMagics.cpp.i
 .PHONY : FindMagics.cpp.i
 
 FindMagics.s: FindMagics.cpp.s
@@ -247,7 +247,7 @@ FindMagics.s: FindMagics.cpp.s
 
 # target to generate assembly for a file
 FindMagics.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/FindMagics.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/FindMagics.cpp.s
 .PHONY : FindMagics.cpp.s
 
 GameCollection.o: GameCollection.cpp.o
@@ -255,7 +255,7 @@ GameCollection.o: GameCollection.cpp.o
 
 # target to build an object file
 GameCollection.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/GameCollection.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/GameCollection.cpp.o
 .PHONY : GameCollection.cpp.o
 
 GameCollection.i: GameCollection.cpp.i
@@ -263,7 +263,7 @@ GameCollection.i: GameCollection.cpp.i
 
 # target to preprocess a source file
 GameCollection.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/GameCollection.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/GameCollection.cpp.i
 .PHONY : GameCollection.cpp.i
 
 GameCollection.s: GameCollection.cpp.s
@@ -271,7 +271,7 @@ GameCollection.s: GameCollection.cpp.s
 
 # target to generate assembly for a file
 GameCollection.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/GameCollection.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/GameCollection.cpp.s
 .PHONY : GameCollection.cpp.s
 
 GameTests.o: GameTests.cpp.o
@@ -279,7 +279,7 @@ GameTests.o: GameTests.cpp.o
 
 # target to build an object file
 GameTests.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/GameTests.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/GameTests.cpp.o
 .PHONY : GameTests.cpp.o
 
 GameTests.i: GameTests.cpp.i
@@ -287,7 +287,7 @@ GameTests.i: GameTests.cpp.i
 
 # target to preprocess a source file
 GameTests.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/GameTests.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/GameTests.cpp.i
 .PHONY : GameTests.cpp.i
 
 GameTests.s: GameTests.cpp.s
@@ -295,7 +295,7 @@ GameTests.s: GameTests.cpp.s
 
 # target to generate assembly for a file
 GameTests.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/GameTests.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/GameTests.cpp.s
 .PHONY : GameTests.cpp.s
 
 Main.o: Main.cpp.o
@@ -303,7 +303,7 @@ Main.o: Main.cpp.o
 
 # target to build an object file
 Main.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/Main.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/Main.cpp.o
 .PHONY : Main.cpp.o
 
 Main.i: Main.cpp.i
@@ -311,7 +311,7 @@ Main.i: Main.cpp.i
 
 # target to preprocess a source file
 Main.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/Main.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/Main.cpp.i
 .PHONY : Main.cpp.i
 
 Main.s: Main.cpp.s
@@ -319,7 +319,7 @@ Main.s: Main.cpp.s
 
 # target to generate assembly for a file
 Main.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/Main.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/Main.cpp.s
 .PHONY : Main.cpp.s
 
 NetworkTest.o: NetworkTest.cpp.o
@@ -327,7 +327,7 @@ NetworkTest.o: NetworkTest.cpp.o
 
 # target to build an object file
 NetworkTest.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/NetworkTest.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/NetworkTest.cpp.o
 .PHONY : NetworkTest.cpp.o
 
 NetworkTest.i: NetworkTest.cpp.i
@@ -335,7 +335,7 @@ NetworkTest.i: NetworkTest.cpp.i
 
 # target to preprocess a source file
 NetworkTest.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/NetworkTest.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/NetworkTest.cpp.i
 .PHONY : NetworkTest.cpp.i
 
 NetworkTest.s: NetworkTest.cpp.s
@@ -343,7 +343,7 @@ NetworkTest.s: NetworkTest.cpp.s
 
 # target to generate assembly for a file
 NetworkTest.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/NetworkTest.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/NetworkTest.cpp.s
 .PHONY : NetworkTest.cpp.s
 
 NetworkTrainer.o: NetworkTrainer.cpp.o
@@ -351,7 +351,7 @@ NetworkTrainer.o: NetworkTrainer.cpp.o
 
 # target to build an object file
 NetworkTrainer.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/NetworkTrainer.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/NetworkTrainer.cpp.o
 .PHONY : NetworkTrainer.cpp.o
 
 NetworkTrainer.i: NetworkTrainer.cpp.i
@@ -359,7 +359,7 @@ NetworkTrainer.i: NetworkTrainer.cpp.i
 
 # target to preprocess a source file
 NetworkTrainer.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/NetworkTrainer.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/NetworkTrainer.cpp.i
 .PHONY : NetworkTrainer.cpp.i
 
 NetworkTrainer.s: NetworkTrainer.cpp.s
@@ -367,7 +367,7 @@ NetworkTrainer.s: NetworkTrainer.cpp.s
 
 # target to generate assembly for a file
 NetworkTrainer.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/NetworkTrainer.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/NetworkTrainer.cpp.s
 .PHONY : NetworkTrainer.cpp.s
 
 PackedPositionTests.o: PackedPositionTests.cpp.o
@@ -375,7 +375,7 @@ PackedPositionTests.o: PackedPositionTests.cpp.o
 
 # target to build an object file
 PackedPositionTests.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PackedPositionTests.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PackedPositionTests.cpp.o
 .PHONY : PackedPositionTests.cpp.o
 
 PackedPositionTests.i: PackedPositionTests.cpp.i
@@ -383,7 +383,7 @@ PackedPositionTests.i: PackedPositionTests.cpp.i
 
 # target to preprocess a source file
 PackedPositionTests.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PackedPositionTests.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PackedPositionTests.cpp.i
 .PHONY : PackedPositionTests.cpp.i
 
 PackedPositionTests.s: PackedPositionTests.cpp.s
@@ -391,7 +391,7 @@ PackedPositionTests.s: PackedPositionTests.cpp.s
 
 # target to generate assembly for a file
 PackedPositionTests.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PackedPositionTests.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PackedPositionTests.cpp.s
 .PHONY : PackedPositionTests.cpp.s
 
 PgnParser.o: PgnParser.cpp.o
@@ -399,7 +399,7 @@ PgnParser.o: PgnParser.cpp.o
 
 # target to build an object file
 PgnParser.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PgnParser.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PgnParser.cpp.o
 .PHONY : PgnParser.cpp.o
 
 PgnParser.i: PgnParser.cpp.i
@@ -407,7 +407,7 @@ PgnParser.i: PgnParser.cpp.i
 
 # target to preprocess a source file
 PgnParser.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PgnParser.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PgnParser.cpp.i
 .PHONY : PgnParser.cpp.i
 
 PgnParser.s: PgnParser.cpp.s
@@ -415,7 +415,7 @@ PgnParser.s: PgnParser.cpp.s
 
 # target to generate assembly for a file
 PgnParser.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PgnParser.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PgnParser.cpp.s
 .PHONY : PgnParser.cpp.s
 
 PgnParserTests.o: PgnParserTests.cpp.o
@@ -423,7 +423,7 @@ PgnParserTests.o: PgnParserTests.cpp.o
 
 # target to build an object file
 PgnParserTests.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PgnParserTests.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PgnParserTests.cpp.o
 .PHONY : PgnParserTests.cpp.o
 
 PgnParserTests.i: PgnParserTests.cpp.i
@@ -431,7 +431,7 @@ PgnParserTests.i: PgnParserTests.cpp.i
 
 # target to preprocess a source file
 PgnParserTests.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PgnParserTests.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PgnParserTests.cpp.i
 .PHONY : PgnParserTests.cpp.i
 
 PgnParserTests.s: PgnParserTests.cpp.s
@@ -439,7 +439,7 @@ PgnParserTests.s: PgnParserTests.cpp.s
 
 # target to generate assembly for a file
 PgnParserTests.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PgnParserTests.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PgnParserTests.cpp.s
 .PHONY : PgnParserTests.cpp.s
 
 PgnToTrainingData.o: PgnToTrainingData.cpp.o
@@ -447,7 +447,7 @@ PgnToTrainingData.o: PgnToTrainingData.cpp.o
 
 # target to build an object file
 PgnToTrainingData.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PgnToTrainingData.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PgnToTrainingData.cpp.o
 .PHONY : PgnToTrainingData.cpp.o
 
 PgnToTrainingData.i: PgnToTrainingData.cpp.i
@@ -455,7 +455,7 @@ PgnToTrainingData.i: PgnToTrainingData.cpp.i
 
 # target to preprocess a source file
 PgnToTrainingData.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PgnToTrainingData.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PgnToTrainingData.cpp.i
 .PHONY : PgnToTrainingData.cpp.i
 
 PgnToTrainingData.s: PgnToTrainingData.cpp.s
@@ -463,7 +463,7 @@ PgnToTrainingData.s: PgnToTrainingData.cpp.s
 
 # target to generate assembly for a file
 PgnToTrainingData.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PgnToTrainingData.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PgnToTrainingData.cpp.s
 .PHONY : PgnToTrainingData.cpp.s
 
 PlainTextToTrainingData.o: PlainTextToTrainingData.cpp.o
@@ -471,7 +471,7 @@ PlainTextToTrainingData.o: PlainTextToTrainingData.cpp.o
 
 # target to build an object file
 PlainTextToTrainingData.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PlainTextToTrainingData.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PlainTextToTrainingData.cpp.o
 .PHONY : PlainTextToTrainingData.cpp.o
 
 PlainTextToTrainingData.i: PlainTextToTrainingData.cpp.i
@@ -479,7 +479,7 @@ PlainTextToTrainingData.i: PlainTextToTrainingData.cpp.i
 
 # target to preprocess a source file
 PlainTextToTrainingData.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PlainTextToTrainingData.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PlainTextToTrainingData.cpp.i
 .PHONY : PlainTextToTrainingData.cpp.i
 
 PlainTextToTrainingData.s: PlainTextToTrainingData.cpp.s
@@ -487,7 +487,7 @@ PlainTextToTrainingData.s: PlainTextToTrainingData.cpp.s
 
 # target to generate assembly for a file
 PlainTextToTrainingData.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PlainTextToTrainingData.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PlainTextToTrainingData.cpp.s
 .PHONY : PlainTextToTrainingData.cpp.s
 
 PrepareTrainingData.o: PrepareTrainingData.cpp.o
@@ -495,7 +495,7 @@ PrepareTrainingData.o: PrepareTrainingData.cpp.o
 
 # target to build an object file
 PrepareTrainingData.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PrepareTrainingData.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PrepareTrainingData.cpp.o
 .PHONY : PrepareTrainingData.cpp.o
 
 PrepareTrainingData.i: PrepareTrainingData.cpp.i
@@ -503,7 +503,7 @@ PrepareTrainingData.i: PrepareTrainingData.cpp.i
 
 # target to preprocess a source file
 PrepareTrainingData.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PrepareTrainingData.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PrepareTrainingData.cpp.i
 .PHONY : PrepareTrainingData.cpp.i
 
 PrepareTrainingData.s: PrepareTrainingData.cpp.s
@@ -511,7 +511,7 @@ PrepareTrainingData.s: PrepareTrainingData.cpp.s
 
 # target to generate assembly for a file
 PrepareTrainingData.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PrepareTrainingData.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/PrepareTrainingData.cpp.s
 .PHONY : PrepareTrainingData.cpp.s
 
 SelfPlay.o: SelfPlay.cpp.o
@@ -519,7 +519,7 @@ SelfPlay.o: SelfPlay.cpp.o
 
 # target to build an object file
 SelfPlay.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/SelfPlay.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/SelfPlay.cpp.o
 .PHONY : SelfPlay.cpp.o
 
 SelfPlay.i: SelfPlay.cpp.i
@@ -527,7 +527,7 @@ SelfPlay.i: SelfPlay.cpp.i
 
 # target to preprocess a source file
 SelfPlay.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/SelfPlay.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/SelfPlay.cpp.i
 .PHONY : SelfPlay.cpp.i
 
 SelfPlay.s: SelfPlay.cpp.s
@@ -535,7 +535,7 @@ SelfPlay.s: SelfPlay.cpp.s
 
 # target to generate assembly for a file
 SelfPlay.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/SelfPlay.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/SelfPlay.cpp.s
 .PHONY : SelfPlay.cpp.s
 
 Stream.o: Stream.cpp.o
@@ -543,7 +543,7 @@ Stream.o: Stream.cpp.o
 
 # target to build an object file
 Stream.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/Stream.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/Stream.cpp.o
 .PHONY : Stream.cpp.o
 
 Stream.i: Stream.cpp.i
@@ -551,7 +551,7 @@ Stream.i: Stream.cpp.i
 
 # target to preprocess a source file
 Stream.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/Stream.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/Stream.cpp.i
 .PHONY : Stream.cpp.i
 
 Stream.s: Stream.cpp.s
@@ -559,7 +559,7 @@ Stream.s: Stream.cpp.s
 
 # target to generate assembly for a file
 Stream.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/Stream.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/Stream.cpp.s
 .PHONY : Stream.cpp.s
 
 Tests.o: Tests.cpp.o
@@ -567,7 +567,7 @@ Tests.o: Tests.cpp.o
 
 # target to build an object file
 Tests.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/Tests.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/Tests.cpp.o
 .PHONY : Tests.cpp.o
 
 Tests.i: Tests.cpp.i
@@ -575,7 +575,7 @@ Tests.i: Tests.cpp.i
 
 # target to preprocess a source file
 Tests.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/Tests.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/Tests.cpp.i
 .PHONY : Tests.cpp.i
 
 Tests.s: Tests.cpp.s
@@ -583,7 +583,7 @@ Tests.s: Tests.cpp.s
 
 # target to generate assembly for a file
 Tests.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/Tests.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/Tests.cpp.s
 .PHONY : Tests.cpp.s
 
 ThreadPool.o: ThreadPool.cpp.o
@@ -591,7 +591,7 @@ ThreadPool.o: ThreadPool.cpp.o
 
 # target to build an object file
 ThreadPool.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/ThreadPool.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/ThreadPool.cpp.o
 .PHONY : ThreadPool.cpp.o
 
 ThreadPool.i: ThreadPool.cpp.i
@@ -599,7 +599,7 @@ ThreadPool.i: ThreadPool.cpp.i
 
 # target to preprocess a source file
 ThreadPool.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/ThreadPool.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/ThreadPool.cpp.i
 .PHONY : ThreadPool.cpp.i
 
 ThreadPool.s: ThreadPool.cpp.s
@@ -607,7 +607,7 @@ ThreadPool.s: ThreadPool.cpp.s
 
 # target to generate assembly for a file
 ThreadPool.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/ThreadPool.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/ThreadPool.cpp.s
 .PHONY : ThreadPool.cpp.s
 
 TrainerCommon.o: TrainerCommon.cpp.o
@@ -615,7 +615,7 @@ TrainerCommon.o: TrainerCommon.cpp.o
 
 # target to build an object file
 TrainerCommon.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/TrainerCommon.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/TrainerCommon.cpp.o
 .PHONY : TrainerCommon.cpp.o
 
 TrainerCommon.i: TrainerCommon.cpp.i
@@ -623,7 +623,7 @@ TrainerCommon.i: TrainerCommon.cpp.i
 
 # target to preprocess a source file
 TrainerCommon.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/TrainerCommon.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/TrainerCommon.cpp.i
 .PHONY : TrainerCommon.cpp.i
 
 TrainerCommon.s: TrainerCommon.cpp.s
@@ -631,7 +631,7 @@ TrainerCommon.s: TrainerCommon.cpp.s
 
 # target to generate assembly for a file
 TrainerCommon.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/TrainerCommon.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/TrainerCommon.cpp.s
 .PHONY : TrainerCommon.cpp.s
 
 minitrace/minitrace.o: minitrace/minitrace.c.o
@@ -639,7 +639,7 @@ minitrace/minitrace.o: minitrace/minitrace.c.o
 
 # target to build an object file
 minitrace/minitrace.c.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/minitrace/minitrace.c.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/minitrace/minitrace.c.o
 .PHONY : minitrace/minitrace.c.o
 
 minitrace/minitrace.i: minitrace/minitrace.c.i
@@ -647,7 +647,7 @@ minitrace/minitrace.i: minitrace/minitrace.c.i
 
 # target to preprocess a source file
 minitrace/minitrace.c.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/minitrace/minitrace.c.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/minitrace/minitrace.c.i
 .PHONY : minitrace/minitrace.c.i
 
 minitrace/minitrace.s: minitrace/minitrace.c.s
@@ -655,7 +655,7 @@ minitrace/minitrace.s: minitrace/minitrace.c.s
 
 # target to generate assembly for a file
 minitrace/minitrace.c.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/minitrace/minitrace.c.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/minitrace/minitrace.c.s
 .PHONY : minitrace/minitrace.c.s
 
 net/ActivationNode.o: net/ActivationNode.cpp.o
@@ -663,7 +663,7 @@ net/ActivationNode.o: net/ActivationNode.cpp.o
 
 # target to build an object file
 net/ActivationNode.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/ActivationNode.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/ActivationNode.cpp.o
 .PHONY : net/ActivationNode.cpp.o
 
 net/ActivationNode.i: net/ActivationNode.cpp.i
@@ -671,7 +671,7 @@ net/ActivationNode.i: net/ActivationNode.cpp.i
 
 # target to preprocess a source file
 net/ActivationNode.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/ActivationNode.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/ActivationNode.cpp.i
 .PHONY : net/ActivationNode.cpp.i
 
 net/ActivationNode.s: net/ActivationNode.cpp.s
@@ -679,7 +679,7 @@ net/ActivationNode.s: net/ActivationNode.cpp.s
 
 # target to generate assembly for a file
 net/ActivationNode.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/ActivationNode.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/ActivationNode.cpp.s
 .PHONY : net/ActivationNode.cpp.s
 
 net/ConcatenationNode.o: net/ConcatenationNode.cpp.o
@@ -687,7 +687,7 @@ net/ConcatenationNode.o: net/ConcatenationNode.cpp.o
 
 # target to build an object file
 net/ConcatenationNode.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/ConcatenationNode.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/ConcatenationNode.cpp.o
 .PHONY : net/ConcatenationNode.cpp.o
 
 net/ConcatenationNode.i: net/ConcatenationNode.cpp.i
@@ -695,7 +695,7 @@ net/ConcatenationNode.i: net/ConcatenationNode.cpp.i
 
 # target to preprocess a source file
 net/ConcatenationNode.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/ConcatenationNode.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/ConcatenationNode.cpp.i
 .PHONY : net/ConcatenationNode.cpp.i
 
 net/ConcatenationNode.s: net/ConcatenationNode.cpp.s
@@ -703,7 +703,7 @@ net/ConcatenationNode.s: net/ConcatenationNode.cpp.s
 
 # target to generate assembly for a file
 net/ConcatenationNode.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/ConcatenationNode.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/ConcatenationNode.cpp.s
 .PHONY : net/ConcatenationNode.cpp.s
 
 net/FullyConnectedNode.o: net/FullyConnectedNode.cpp.o
@@ -711,7 +711,7 @@ net/FullyConnectedNode.o: net/FullyConnectedNode.cpp.o
 
 # target to build an object file
 net/FullyConnectedNode.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/FullyConnectedNode.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/FullyConnectedNode.cpp.o
 .PHONY : net/FullyConnectedNode.cpp.o
 
 net/FullyConnectedNode.i: net/FullyConnectedNode.cpp.i
@@ -719,7 +719,7 @@ net/FullyConnectedNode.i: net/FullyConnectedNode.cpp.i
 
 # target to preprocess a source file
 net/FullyConnectedNode.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/FullyConnectedNode.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/FullyConnectedNode.cpp.i
 .PHONY : net/FullyConnectedNode.cpp.i
 
 net/FullyConnectedNode.s: net/FullyConnectedNode.cpp.s
@@ -727,7 +727,7 @@ net/FullyConnectedNode.s: net/FullyConnectedNode.cpp.s
 
 # target to generate assembly for a file
 net/FullyConnectedNode.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/FullyConnectedNode.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/FullyConnectedNode.cpp.s
 .PHONY : net/FullyConnectedNode.cpp.s
 
 net/Gradient.o: net/Gradient.cpp.o
@@ -735,7 +735,7 @@ net/Gradient.o: net/Gradient.cpp.o
 
 # target to build an object file
 net/Gradient.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/Gradient.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/Gradient.cpp.o
 .PHONY : net/Gradient.cpp.o
 
 net/Gradient.i: net/Gradient.cpp.i
@@ -743,7 +743,7 @@ net/Gradient.i: net/Gradient.cpp.i
 
 # target to preprocess a source file
 net/Gradient.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/Gradient.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/Gradient.cpp.i
 .PHONY : net/Gradient.cpp.i
 
 net/Gradient.s: net/Gradient.cpp.s
@@ -751,7 +751,7 @@ net/Gradient.s: net/Gradient.cpp.s
 
 # target to generate assembly for a file
 net/Gradient.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/Gradient.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/Gradient.cpp.s
 .PHONY : net/Gradient.cpp.s
 
 net/Network.o: net/Network.cpp.o
@@ -759,7 +759,7 @@ net/Network.o: net/Network.cpp.o
 
 # target to build an object file
 net/Network.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/Network.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/Network.cpp.o
 .PHONY : net/Network.cpp.o
 
 net/Network.i: net/Network.cpp.i
@@ -767,7 +767,7 @@ net/Network.i: net/Network.cpp.i
 
 # target to preprocess a source file
 net/Network.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/Network.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/Network.cpp.i
 .PHONY : net/Network.cpp.i
 
 net/Network.s: net/Network.cpp.s
@@ -775,7 +775,7 @@ net/Network.s: net/Network.cpp.s
 
 # target to generate assembly for a file
 net/Network.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/Network.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/Network.cpp.s
 .PHONY : net/Network.cpp.s
 
 net/Node.o: net/Node.cpp.o
@@ -783,7 +783,7 @@ net/Node.o: net/Node.cpp.o
 
 # target to build an object file
 net/Node.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/Node.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/Node.cpp.o
 .PHONY : net/Node.cpp.o
 
 net/Node.i: net/Node.cpp.i
@@ -791,7 +791,7 @@ net/Node.i: net/Node.cpp.i
 
 # target to preprocess a source file
 net/Node.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/Node.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/Node.cpp.i
 .PHONY : net/Node.cpp.i
 
 net/Node.s: net/Node.cpp.s
@@ -799,7 +799,7 @@ net/Node.s: net/Node.cpp.s
 
 # target to generate assembly for a file
 net/Node.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/Node.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/Node.cpp.s
 .PHONY : net/Node.cpp.s
 
 net/SparseBinaryInputNode.o: net/SparseBinaryInputNode.cpp.o
@@ -807,7 +807,7 @@ net/SparseBinaryInputNode.o: net/SparseBinaryInputNode.cpp.o
 
 # target to build an object file
 net/SparseBinaryInputNode.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/SparseBinaryInputNode.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/SparseBinaryInputNode.cpp.o
 .PHONY : net/SparseBinaryInputNode.cpp.o
 
 net/SparseBinaryInputNode.i: net/SparseBinaryInputNode.cpp.i
@@ -815,7 +815,7 @@ net/SparseBinaryInputNode.i: net/SparseBinaryInputNode.cpp.i
 
 # target to preprocess a source file
 net/SparseBinaryInputNode.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/SparseBinaryInputNode.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/SparseBinaryInputNode.cpp.i
 .PHONY : net/SparseBinaryInputNode.cpp.i
 
 net/SparseBinaryInputNode.s: net/SparseBinaryInputNode.cpp.s
@@ -823,7 +823,7 @@ net/SparseBinaryInputNode.s: net/SparseBinaryInputNode.cpp.s
 
 # target to generate assembly for a file
 net/SparseBinaryInputNode.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/SparseBinaryInputNode.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/SparseBinaryInputNode.cpp.s
 .PHONY : net/SparseBinaryInputNode.cpp.s
 
 net/SparseInputNode.o: net/SparseInputNode.cpp.o
@@ -831,7 +831,7 @@ net/SparseInputNode.o: net/SparseInputNode.cpp.o
 
 # target to build an object file
 net/SparseInputNode.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/SparseInputNode.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/SparseInputNode.cpp.o
 .PHONY : net/SparseInputNode.cpp.o
 
 net/SparseInputNode.i: net/SparseInputNode.cpp.i
@@ -839,7 +839,7 @@ net/SparseInputNode.i: net/SparseInputNode.cpp.i
 
 # target to preprocess a source file
 net/SparseInputNode.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/SparseInputNode.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/SparseInputNode.cpp.i
 .PHONY : net/SparseInputNode.cpp.i
 
 net/SparseInputNode.s: net/SparseInputNode.cpp.s
@@ -847,7 +847,7 @@ net/SparseInputNode.s: net/SparseInputNode.cpp.s
 
 # target to generate assembly for a file
 net/SparseInputNode.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/SparseInputNode.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/SparseInputNode.cpp.s
 .PHONY : net/SparseInputNode.cpp.s
 
 net/SumNode.o: net/SumNode.cpp.o
@@ -855,7 +855,7 @@ net/SumNode.o: net/SumNode.cpp.o
 
 # target to build an object file
 net/SumNode.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/SumNode.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/SumNode.cpp.o
 .PHONY : net/SumNode.cpp.o
 
 net/SumNode.i: net/SumNode.cpp.i
@@ -863,7 +863,7 @@ net/SumNode.i: net/SumNode.cpp.i
 
 # target to preprocess a source file
 net/SumNode.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/SumNode.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/SumNode.cpp.i
 .PHONY : net/SumNode.cpp.i
 
 net/SumNode.s: net/SumNode.cpp.s
@@ -871,7 +871,7 @@ net/SumNode.s: net/SumNode.cpp.s
 
 # target to generate assembly for a file
 net/SumNode.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/SumNode.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/SumNode.cpp.s
 .PHONY : net/SumNode.cpp.s
 
 net/TrainableNode.o: net/TrainableNode.cpp.o
@@ -879,7 +879,7 @@ net/TrainableNode.o: net/TrainableNode.cpp.o
 
 # target to build an object file
 net/TrainableNode.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/TrainableNode.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/TrainableNode.cpp.o
 .PHONY : net/TrainableNode.cpp.o
 
 net/TrainableNode.i: net/TrainableNode.cpp.i
@@ -887,7 +887,7 @@ net/TrainableNode.i: net/TrainableNode.cpp.i
 
 # target to preprocess a source file
 net/TrainableNode.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/TrainableNode.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/TrainableNode.cpp.i
 .PHONY : net/TrainableNode.cpp.i
 
 net/TrainableNode.s: net/TrainableNode.cpp.s
@@ -895,7 +895,7 @@ net/TrainableNode.s: net/TrainableNode.cpp.s
 
 # target to generate assembly for a file
 net/TrainableNode.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/TrainableNode.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/TrainableNode.cpp.s
 .PHONY : net/TrainableNode.cpp.s
 
 net/WeightsStorage.o: net/WeightsStorage.cpp.o
@@ -903,7 +903,7 @@ net/WeightsStorage.o: net/WeightsStorage.cpp.o
 
 # target to build an object file
 net/WeightsStorage.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/WeightsStorage.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/WeightsStorage.cpp.o
 .PHONY : net/WeightsStorage.cpp.o
 
 net/WeightsStorage.i: net/WeightsStorage.cpp.i
@@ -911,7 +911,7 @@ net/WeightsStorage.i: net/WeightsStorage.cpp.i
 
 # target to preprocess a source file
 net/WeightsStorage.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/WeightsStorage.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/WeightsStorage.cpp.i
 .PHONY : net/WeightsStorage.cpp.i
 
 net/WeightsStorage.s: net/WeightsStorage.cpp.s
@@ -919,7 +919,7 @@ net/WeightsStorage.s: net/WeightsStorage.cpp.s
 
 # target to generate assembly for a file
 net/WeightsStorage.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/WeightsStorage.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/tools/CMakeFiles/trainer.dir/build.make src/tools/CMakeFiles/trainer.dir/net/WeightsStorage.cpp.s
 .PHONY : net/WeightsStorage.cpp.s
 
 # Help Target
@@ -1041,6 +1041,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/sid/Documents/GitHub/gforce/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -7,13 +7,13 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/sid/Documents/GitHub/G-ForceZero/CMakeLists.txt"
+  "/home/sid/Documents/GitHub/gforce/CMakeLists.txt"
   "CMakeFiles/4.3.0/CMakeCCompiler.cmake"
   "CMakeFiles/4.3.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.3.0/CMakeSystem.cmake"
-  "/home/sid/Documents/GitHub/G-ForceZero/src/CMakeLists.txt"
-  "/home/sid/Documents/GitHub/G-ForceZero/src/engine/CMakeLists.txt"
-  "/home/sid/Documents/GitHub/G-ForceZero/src/tools/CMakeLists.txt"
+  "/home/sid/Documents/GitHub/gforce/src/CMakeLists.txt"
+  "/home/sid/Documents/GitHub/gforce/src/engine/CMakeLists.txt"
+  "/home/sid/Documents/GitHub/gforce/src/tools/CMakeLists.txt"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"

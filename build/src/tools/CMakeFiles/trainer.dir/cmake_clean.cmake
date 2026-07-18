@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/trainer.dir/link.d"
-  "/home/sid/Documents/GitHub/G-ForceZero/trainer"
-  "/home/sid/Documents/GitHub/G-ForceZero/trainer.pdb"
+  "/home/sid/Documents/GitHub/gforce/trainer"
+  "/home/sid/Documents/GitHub/gforce/trainer.pdb"
   "CMakeFiles/trainer.dir/AnalyzeGames.cpp.o"
   "CMakeFiles/trainer.dir/AnalyzeGames.cpp.o.d"
   "CMakeFiles/trainer.dir/DumpGames.cpp.o"

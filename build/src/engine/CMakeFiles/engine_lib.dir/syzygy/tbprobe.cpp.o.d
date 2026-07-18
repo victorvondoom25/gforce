@@ -1,5 +1,5 @@
 src/engine/CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.o: \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/syzygy/tbprobe.cpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/syzygy/tbprobe.cpp \
  /usr/include/stdc-predef.h /usr/include/assert.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
@@ -100,8 +100,8 @@ src/engine/CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.o: \
  /usr/include/c++/16/pstl/glue_algorithm_defs.h \
  /usr/include/c++/16/pstl/execution_defs.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdbool.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/syzygy/tbprobe.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/syzygy/tbconfig.h \
+ /home/sid/Documents/GitHub/gforce/src/engine/syzygy/tbprobe.h \
+ /home/sid/Documents/GitHub/gforce/src/engine/syzygy/tbconfig.h \
  /usr/include/fcntl.h /usr/include/bits/fcntl.h \
  /usr/include/bits/fcntl-linux.h /usr/include/bits/types/struct_iovec.h \
  /usr/include/bits/cloexec.h /usr/include/linux/falloc.h \
@@ -134,6 +134,6 @@ src/engine/CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.o: \
  /usr/include/c++/16/x86_64-redhat-linux/bits/atomic_word.h \
  /usr/include/sys/single_threaded.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/popcntintrin.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/syzygy/stdendian.h \
+ /home/sid/Documents/GitHub/gforce/src/engine/syzygy/stdendian.h \
  /usr/include/byteswap.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/syzygy/tbchess.c
+ /home/sid/Documents/GitHub/gforce/src/engine/syzygy/tbchess.c

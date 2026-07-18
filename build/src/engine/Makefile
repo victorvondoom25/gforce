@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sid/Documents/GitHub/G-ForceZero
+CMAKE_SOURCE_DIR = /home/sid/Documents/GitHub/gforce
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sid/Documents/GitHub/G-ForceZero/build
+CMAKE_BINARY_DIR = /home/sid/Documents/GitHub/gforce/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles /home/sid/Documents/GitHub/G-ForceZero/build/src/engine//CMakeFiles/progress.marks
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/engine/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles 0
+	cd /home/sid/Documents/GitHub/gforce/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/sid/Documents/GitHub/gforce/build/CMakeFiles /home/sid/Documents/GitHub/gforce/build/src/engine//CMakeFiles/progress.marks
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/engine/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sid/Documents/GitHub/gforce/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/engine/clean
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/engine/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/engine/preinstall
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/engine/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/engine/preinstall
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/engine/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/sid/Documents/GitHub/gforce/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/engine/CMakeFiles/engine_lib.dir/rule:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/engine/CMakeFiles/engine_lib.dir/rule
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/engine/CMakeFiles/engine_lib.dir/rule
 .PHONY : src/engine/CMakeFiles/engine_lib.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ engine_lib: src/engine/CMakeFiles/engine_lib.dir/rule
 
 # fast build rule for target.
 engine_lib/fast:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/build
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/build
 .PHONY : engine_lib/fast
 
 # Convenience name for target.
 src/engine/CMakeFiles/G-ForceZero.dir/rule:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/engine/CMakeFiles/G-ForceZero.dir/rule
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/engine/CMakeFiles/G-ForceZero.dir/rule
 .PHONY : src/engine/CMakeFiles/G-ForceZero.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ G-ForceZero: src/engine/CMakeFiles/G-ForceZero.dir/rule
 
 # fast build rule for target.
 G-ForceZero/fast:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/G-ForceZero.dir/build.make src/engine/CMakeFiles/G-ForceZero.dir/build
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/G-ForceZero.dir/build.make src/engine/CMakeFiles/G-ForceZero.dir/build
 .PHONY : G-ForceZero/fast
 
 Bitboard.o: Bitboard.cpp.o
@@ -149,7 +149,7 @@ Bitboard.o: Bitboard.cpp.o
 
 # target to build an object file
 Bitboard.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Bitboard.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Bitboard.cpp.o
 .PHONY : Bitboard.cpp.o
 
 Bitboard.i: Bitboard.cpp.i
@@ -157,7 +157,7 @@ Bitboard.i: Bitboard.cpp.i
 
 # target to preprocess a source file
 Bitboard.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Bitboard.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Bitboard.cpp.i
 .PHONY : Bitboard.cpp.i
 
 Bitboard.s: Bitboard.cpp.s
@@ -165,7 +165,7 @@ Bitboard.s: Bitboard.cpp.s
 
 # target to generate assembly for a file
 Bitboard.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Bitboard.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Bitboard.cpp.s
 .PHONY : Bitboard.cpp.s
 
 Common.o: Common.cpp.o
@@ -173,7 +173,7 @@ Common.o: Common.cpp.o
 
 # target to build an object file
 Common.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Common.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Common.cpp.o
 .PHONY : Common.cpp.o
 
 Common.i: Common.cpp.i
@@ -181,7 +181,7 @@ Common.i: Common.cpp.i
 
 # target to preprocess a source file
 Common.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Common.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Common.cpp.i
 .PHONY : Common.cpp.i
 
 Common.s: Common.cpp.s
@@ -189,7 +189,7 @@ Common.s: Common.cpp.s
 
 # target to generate assembly for a file
 Common.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Common.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Common.cpp.s
 .PHONY : Common.cpp.s
 
 Endgame.o: Endgame.cpp.o
@@ -197,7 +197,7 @@ Endgame.o: Endgame.cpp.o
 
 # target to build an object file
 Endgame.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Endgame.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Endgame.cpp.o
 .PHONY : Endgame.cpp.o
 
 Endgame.i: Endgame.cpp.i
@@ -205,7 +205,7 @@ Endgame.i: Endgame.cpp.i
 
 # target to preprocess a source file
 Endgame.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Endgame.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Endgame.cpp.i
 .PHONY : Endgame.cpp.i
 
 Endgame.s: Endgame.cpp.s
@@ -213,7 +213,7 @@ Endgame.s: Endgame.cpp.s
 
 # target to generate assembly for a file
 Endgame.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Endgame.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Endgame.cpp.s
 .PHONY : Endgame.cpp.s
 
 Evaluate.o: Evaluate.cpp.o
@@ -221,7 +221,7 @@ Evaluate.o: Evaluate.cpp.o
 
 # target to build an object file
 Evaluate.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Evaluate.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Evaluate.cpp.o
 .PHONY : Evaluate.cpp.o
 
 Evaluate.i: Evaluate.cpp.i
@@ -229,7 +229,7 @@ Evaluate.i: Evaluate.cpp.i
 
 # target to preprocess a source file
 Evaluate.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Evaluate.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Evaluate.cpp.i
 .PHONY : Evaluate.cpp.i
 
 Evaluate.s: Evaluate.cpp.s
@@ -237,7 +237,7 @@ Evaluate.s: Evaluate.cpp.s
 
 # target to generate assembly for a file
 Evaluate.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Evaluate.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Evaluate.cpp.s
 .PHONY : Evaluate.cpp.s
 
 Game.o: Game.cpp.o
@@ -245,7 +245,7 @@ Game.o: Game.cpp.o
 
 # target to build an object file
 Game.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Game.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Game.cpp.o
 .PHONY : Game.cpp.o
 
 Game.i: Game.cpp.i
@@ -253,7 +253,7 @@ Game.i: Game.cpp.i
 
 # target to preprocess a source file
 Game.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Game.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Game.cpp.i
 .PHONY : Game.cpp.i
 
 Game.s: Game.cpp.s
@@ -261,7 +261,7 @@ Game.s: Game.cpp.s
 
 # target to generate assembly for a file
 Game.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Game.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Game.cpp.s
 .PHONY : Game.cpp.s
 
 Material.o: Material.cpp.o
@@ -269,7 +269,7 @@ Material.o: Material.cpp.o
 
 # target to build an object file
 Material.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Material.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Material.cpp.o
 .PHONY : Material.cpp.o
 
 Material.i: Material.cpp.i
@@ -277,7 +277,7 @@ Material.i: Material.cpp.i
 
 # target to preprocess a source file
 Material.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Material.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Material.cpp.i
 .PHONY : Material.cpp.i
 
 Material.s: Material.cpp.s
@@ -285,7 +285,7 @@ Material.s: Material.cpp.s
 
 # target to generate assembly for a file
 Material.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Material.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Material.cpp.s
 .PHONY : Material.cpp.s
 
 Memory.o: Memory.cpp.o
@@ -293,7 +293,7 @@ Memory.o: Memory.cpp.o
 
 # target to build an object file
 Memory.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Memory.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Memory.cpp.o
 .PHONY : Memory.cpp.o
 
 Memory.i: Memory.cpp.i
@@ -301,7 +301,7 @@ Memory.i: Memory.cpp.i
 
 # target to preprocess a source file
 Memory.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Memory.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Memory.cpp.i
 .PHONY : Memory.cpp.i
 
 Memory.s: Memory.cpp.s
@@ -309,7 +309,7 @@ Memory.s: Memory.cpp.s
 
 # target to generate assembly for a file
 Memory.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Memory.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Memory.cpp.s
 .PHONY : Memory.cpp.s
 
 Move.o: Move.cpp.o
@@ -317,7 +317,7 @@ Move.o: Move.cpp.o
 
 # target to build an object file
 Move.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Move.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Move.cpp.o
 .PHONY : Move.cpp.o
 
 Move.i: Move.cpp.i
@@ -325,7 +325,7 @@ Move.i: Move.cpp.i
 
 # target to preprocess a source file
 Move.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Move.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Move.cpp.i
 .PHONY : Move.cpp.i
 
 Move.s: Move.cpp.s
@@ -333,7 +333,7 @@ Move.s: Move.cpp.s
 
 # target to generate assembly for a file
 Move.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Move.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Move.cpp.s
 .PHONY : Move.cpp.s
 
 MoveList.o: MoveList.cpp.o
@@ -341,7 +341,7 @@ MoveList.o: MoveList.cpp.o
 
 # target to build an object file
 MoveList.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/MoveList.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/MoveList.cpp.o
 .PHONY : MoveList.cpp.o
 
 MoveList.i: MoveList.cpp.i
@@ -349,7 +349,7 @@ MoveList.i: MoveList.cpp.i
 
 # target to preprocess a source file
 MoveList.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/MoveList.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/MoveList.cpp.i
 .PHONY : MoveList.cpp.i
 
 MoveList.s: MoveList.cpp.s
@@ -357,7 +357,7 @@ MoveList.s: MoveList.cpp.s
 
 # target to generate assembly for a file
 MoveList.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/MoveList.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/MoveList.cpp.s
 .PHONY : MoveList.cpp.s
 
 MoveOrderer.o: MoveOrderer.cpp.o
@@ -365,7 +365,7 @@ MoveOrderer.o: MoveOrderer.cpp.o
 
 # target to build an object file
 MoveOrderer.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/MoveOrderer.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/MoveOrderer.cpp.o
 .PHONY : MoveOrderer.cpp.o
 
 MoveOrderer.i: MoveOrderer.cpp.i
@@ -373,7 +373,7 @@ MoveOrderer.i: MoveOrderer.cpp.i
 
 # target to preprocess a source file
 MoveOrderer.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/MoveOrderer.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/MoveOrderer.cpp.i
 .PHONY : MoveOrderer.cpp.i
 
 MoveOrderer.s: MoveOrderer.cpp.s
@@ -381,7 +381,7 @@ MoveOrderer.s: MoveOrderer.cpp.s
 
 # target to generate assembly for a file
 MoveOrderer.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/MoveOrderer.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/MoveOrderer.cpp.s
 .PHONY : MoveOrderer.cpp.s
 
 MovePicker.o: MovePicker.cpp.o
@@ -389,7 +389,7 @@ MovePicker.o: MovePicker.cpp.o
 
 # target to build an object file
 MovePicker.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/MovePicker.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/MovePicker.cpp.o
 .PHONY : MovePicker.cpp.o
 
 MovePicker.i: MovePicker.cpp.i
@@ -397,7 +397,7 @@ MovePicker.i: MovePicker.cpp.i
 
 # target to preprocess a source file
 MovePicker.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/MovePicker.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/MovePicker.cpp.i
 .PHONY : MovePicker.cpp.i
 
 MovePicker.s: MovePicker.cpp.s
@@ -405,7 +405,7 @@ MovePicker.s: MovePicker.cpp.s
 
 # target to generate assembly for a file
 MovePicker.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/MovePicker.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/MovePicker.cpp.s
 .PHONY : MovePicker.cpp.s
 
 NeuralNetworkEvaluator.o: NeuralNetworkEvaluator.cpp.o
@@ -413,7 +413,7 @@ NeuralNetworkEvaluator.o: NeuralNetworkEvaluator.cpp.o
 
 # target to build an object file
 NeuralNetworkEvaluator.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.o
 .PHONY : NeuralNetworkEvaluator.cpp.o
 
 NeuralNetworkEvaluator.i: NeuralNetworkEvaluator.cpp.i
@@ -421,7 +421,7 @@ NeuralNetworkEvaluator.i: NeuralNetworkEvaluator.cpp.i
 
 # target to preprocess a source file
 NeuralNetworkEvaluator.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.i
 .PHONY : NeuralNetworkEvaluator.cpp.i
 
 NeuralNetworkEvaluator.s: NeuralNetworkEvaluator.cpp.s
@@ -429,7 +429,7 @@ NeuralNetworkEvaluator.s: NeuralNetworkEvaluator.cpp.s
 
 # target to generate assembly for a file
 NeuralNetworkEvaluator.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.s
 .PHONY : NeuralNetworkEvaluator.cpp.s
 
 NodeCache.o: NodeCache.cpp.o
@@ -437,7 +437,7 @@ NodeCache.o: NodeCache.cpp.o
 
 # target to build an object file
 NodeCache.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/NodeCache.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/NodeCache.cpp.o
 .PHONY : NodeCache.cpp.o
 
 NodeCache.i: NodeCache.cpp.i
@@ -445,7 +445,7 @@ NodeCache.i: NodeCache.cpp.i
 
 # target to preprocess a source file
 NodeCache.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/NodeCache.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/NodeCache.cpp.i
 .PHONY : NodeCache.cpp.i
 
 NodeCache.s: NodeCache.cpp.s
@@ -453,7 +453,7 @@ NodeCache.s: NodeCache.cpp.s
 
 # target to generate assembly for a file
 NodeCache.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/NodeCache.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/NodeCache.cpp.s
 .PHONY : NodeCache.cpp.s
 
 Numa.o: Numa.cpp.o
@@ -461,7 +461,7 @@ Numa.o: Numa.cpp.o
 
 # target to build an object file
 Numa.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Numa.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Numa.cpp.o
 .PHONY : Numa.cpp.o
 
 Numa.i: Numa.cpp.i
@@ -469,7 +469,7 @@ Numa.i: Numa.cpp.i
 
 # target to preprocess a source file
 Numa.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Numa.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Numa.cpp.i
 .PHONY : Numa.cpp.i
 
 Numa.s: Numa.cpp.s
@@ -477,7 +477,7 @@ Numa.s: Numa.cpp.s
 
 # target to generate assembly for a file
 Numa.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Numa.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Numa.cpp.s
 .PHONY : Numa.cpp.s
 
 PackedNeuralNetwork.o: PackedNeuralNetwork.cpp.o
@@ -485,7 +485,7 @@ PackedNeuralNetwork.o: PackedNeuralNetwork.cpp.o
 
 # target to build an object file
 PackedNeuralNetwork.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.o
 .PHONY : PackedNeuralNetwork.cpp.o
 
 PackedNeuralNetwork.i: PackedNeuralNetwork.cpp.i
@@ -493,7 +493,7 @@ PackedNeuralNetwork.i: PackedNeuralNetwork.cpp.i
 
 # target to preprocess a source file
 PackedNeuralNetwork.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.i
 .PHONY : PackedNeuralNetwork.cpp.i
 
 PackedNeuralNetwork.s: PackedNeuralNetwork.cpp.s
@@ -501,7 +501,7 @@ PackedNeuralNetwork.s: PackedNeuralNetwork.cpp.s
 
 # target to generate assembly for a file
 PackedNeuralNetwork.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.s
 .PHONY : PackedNeuralNetwork.cpp.s
 
 Position.o: Position.cpp.o
@@ -509,7 +509,7 @@ Position.o: Position.cpp.o
 
 # target to build an object file
 Position.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Position.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Position.cpp.o
 .PHONY : Position.cpp.o
 
 Position.i: Position.cpp.i
@@ -517,7 +517,7 @@ Position.i: Position.cpp.i
 
 # target to preprocess a source file
 Position.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Position.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Position.cpp.i
 .PHONY : Position.cpp.i
 
 Position.s: Position.cpp.s
@@ -525,7 +525,7 @@ Position.s: Position.cpp.s
 
 # target to generate assembly for a file
 Position.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Position.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Position.cpp.s
 .PHONY : Position.cpp.s
 
 PositionHash.o: PositionHash.cpp.o
@@ -533,7 +533,7 @@ PositionHash.o: PositionHash.cpp.o
 
 # target to build an object file
 PositionHash.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/PositionHash.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/PositionHash.cpp.o
 .PHONY : PositionHash.cpp.o
 
 PositionHash.i: PositionHash.cpp.i
@@ -541,7 +541,7 @@ PositionHash.i: PositionHash.cpp.i
 
 # target to preprocess a source file
 PositionHash.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/PositionHash.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/PositionHash.cpp.i
 .PHONY : PositionHash.cpp.i
 
 PositionHash.s: PositionHash.cpp.s
@@ -549,7 +549,7 @@ PositionHash.s: PositionHash.cpp.s
 
 # target to generate assembly for a file
 PositionHash.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/PositionHash.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/PositionHash.cpp.s
 .PHONY : PositionHash.cpp.s
 
 PositionUtils.o: PositionUtils.cpp.o
@@ -557,7 +557,7 @@ PositionUtils.o: PositionUtils.cpp.o
 
 # target to build an object file
 PositionUtils.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/PositionUtils.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/PositionUtils.cpp.o
 .PHONY : PositionUtils.cpp.o
 
 PositionUtils.i: PositionUtils.cpp.i
@@ -565,7 +565,7 @@ PositionUtils.i: PositionUtils.cpp.i
 
 # target to preprocess a source file
 PositionUtils.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/PositionUtils.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/PositionUtils.cpp.i
 .PHONY : PositionUtils.cpp.i
 
 PositionUtils.s: PositionUtils.cpp.s
@@ -573,7 +573,7 @@ PositionUtils.s: PositionUtils.cpp.s
 
 # target to generate assembly for a file
 PositionUtils.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/PositionUtils.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/PositionUtils.cpp.s
 .PHONY : PositionUtils.cpp.s
 
 Search.o: Search.cpp.o
@@ -581,7 +581,7 @@ Search.o: Search.cpp.o
 
 # target to build an object file
 Search.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Search.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Search.cpp.o
 .PHONY : Search.cpp.o
 
 Search.i: Search.cpp.i
@@ -589,7 +589,7 @@ Search.i: Search.cpp.i
 
 # target to preprocess a source file
 Search.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Search.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Search.cpp.i
 .PHONY : Search.cpp.i
 
 Search.s: Search.cpp.s
@@ -597,7 +597,7 @@ Search.s: Search.cpp.s
 
 # target to generate assembly for a file
 Search.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Search.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Search.cpp.s
 .PHONY : Search.cpp.s
 
 SearchUtils.o: SearchUtils.cpp.o
@@ -605,7 +605,7 @@ SearchUtils.o: SearchUtils.cpp.o
 
 # target to build an object file
 SearchUtils.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/SearchUtils.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/SearchUtils.cpp.o
 .PHONY : SearchUtils.cpp.o
 
 SearchUtils.i: SearchUtils.cpp.i
@@ -613,7 +613,7 @@ SearchUtils.i: SearchUtils.cpp.i
 
 # target to preprocess a source file
 SearchUtils.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/SearchUtils.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/SearchUtils.cpp.i
 .PHONY : SearchUtils.cpp.i
 
 SearchUtils.s: SearchUtils.cpp.s
@@ -621,7 +621,7 @@ SearchUtils.s: SearchUtils.cpp.s
 
 # target to generate assembly for a file
 SearchUtils.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/SearchUtils.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/SearchUtils.cpp.s
 .PHONY : SearchUtils.cpp.s
 
 Square.o: Square.cpp.o
@@ -629,7 +629,7 @@ Square.o: Square.cpp.o
 
 # target to build an object file
 Square.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Square.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Square.cpp.o
 .PHONY : Square.cpp.o
 
 Square.i: Square.cpp.i
@@ -637,7 +637,7 @@ Square.i: Square.cpp.i
 
 # target to preprocess a source file
 Square.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Square.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Square.cpp.i
 .PHONY : Square.cpp.i
 
 Square.s: Square.cpp.s
@@ -645,7 +645,7 @@ Square.s: Square.cpp.s
 
 # target to generate assembly for a file
 Square.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Square.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Square.cpp.s
 .PHONY : Square.cpp.s
 
 Tablebase.o: Tablebase.cpp.o
@@ -653,7 +653,7 @@ Tablebase.o: Tablebase.cpp.o
 
 # target to build an object file
 Tablebase.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Tablebase.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Tablebase.cpp.o
 .PHONY : Tablebase.cpp.o
 
 Tablebase.i: Tablebase.cpp.i
@@ -661,7 +661,7 @@ Tablebase.i: Tablebase.cpp.i
 
 # target to preprocess a source file
 Tablebase.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Tablebase.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Tablebase.cpp.i
 .PHONY : Tablebase.cpp.i
 
 Tablebase.s: Tablebase.cpp.s
@@ -669,7 +669,7 @@ Tablebase.s: Tablebase.cpp.s
 
 # target to generate assembly for a file
 Tablebase.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Tablebase.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Tablebase.cpp.s
 .PHONY : Tablebase.cpp.s
 
 Time.o: Time.cpp.o
@@ -677,7 +677,7 @@ Time.o: Time.cpp.o
 
 # target to build an object file
 Time.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Time.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Time.cpp.o
 .PHONY : Time.cpp.o
 
 Time.i: Time.cpp.i
@@ -685,7 +685,7 @@ Time.i: Time.cpp.i
 
 # target to preprocess a source file
 Time.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Time.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Time.cpp.i
 .PHONY : Time.cpp.i
 
 Time.s: Time.cpp.s
@@ -693,7 +693,7 @@ Time.s: Time.cpp.s
 
 # target to generate assembly for a file
 Time.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Time.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Time.cpp.s
 .PHONY : Time.cpp.s
 
 TimeManager.o: TimeManager.cpp.o
@@ -701,7 +701,7 @@ TimeManager.o: TimeManager.cpp.o
 
 # target to build an object file
 TimeManager.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/TimeManager.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/TimeManager.cpp.o
 .PHONY : TimeManager.cpp.o
 
 TimeManager.i: TimeManager.cpp.i
@@ -709,7 +709,7 @@ TimeManager.i: TimeManager.cpp.i
 
 # target to preprocess a source file
 TimeManager.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/TimeManager.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/TimeManager.cpp.i
 .PHONY : TimeManager.cpp.i
 
 TimeManager.s: TimeManager.cpp.s
@@ -717,7 +717,7 @@ TimeManager.s: TimeManager.cpp.s
 
 # target to generate assembly for a file
 TimeManager.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/TimeManager.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/TimeManager.cpp.s
 .PHONY : TimeManager.cpp.s
 
 TranspositionTable.o: TranspositionTable.cpp.o
@@ -725,7 +725,7 @@ TranspositionTable.o: TranspositionTable.cpp.o
 
 # target to build an object file
 TranspositionTable.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/TranspositionTable.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/TranspositionTable.cpp.o
 .PHONY : TranspositionTable.cpp.o
 
 TranspositionTable.i: TranspositionTable.cpp.i
@@ -733,7 +733,7 @@ TranspositionTable.i: TranspositionTable.cpp.i
 
 # target to preprocess a source file
 TranspositionTable.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/TranspositionTable.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/TranspositionTable.cpp.i
 .PHONY : TranspositionTable.cpp.i
 
 TranspositionTable.s: TranspositionTable.cpp.s
@@ -741,7 +741,7 @@ TranspositionTable.s: TranspositionTable.cpp.s
 
 # target to generate assembly for a file
 TranspositionTable.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/TranspositionTable.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/TranspositionTable.cpp.s
 .PHONY : TranspositionTable.cpp.s
 
 Tuning.o: Tuning.cpp.o
@@ -749,7 +749,7 @@ Tuning.o: Tuning.cpp.o
 
 # target to build an object file
 Tuning.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Tuning.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Tuning.cpp.o
 .PHONY : Tuning.cpp.o
 
 Tuning.i: Tuning.cpp.i
@@ -757,7 +757,7 @@ Tuning.i: Tuning.cpp.i
 
 # target to preprocess a source file
 Tuning.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Tuning.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Tuning.cpp.i
 .PHONY : Tuning.cpp.i
 
 Tuning.s: Tuning.cpp.s
@@ -765,7 +765,7 @@ Tuning.s: Tuning.cpp.s
 
 # target to generate assembly for a file
 Tuning.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Tuning.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Tuning.cpp.s
 .PHONY : Tuning.cpp.s
 
 UCI.o: UCI.cpp.o
@@ -773,7 +773,7 @@ UCI.o: UCI.cpp.o
 
 # target to build an object file
 UCI.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/G-ForceZero.dir/build.make src/engine/CMakeFiles/G-ForceZero.dir/UCI.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/G-ForceZero.dir/build.make src/engine/CMakeFiles/G-ForceZero.dir/UCI.cpp.o
 .PHONY : UCI.cpp.o
 
 UCI.i: UCI.cpp.i
@@ -781,7 +781,7 @@ UCI.i: UCI.cpp.i
 
 # target to preprocess a source file
 UCI.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/G-ForceZero.dir/build.make src/engine/CMakeFiles/G-ForceZero.dir/UCI.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/G-ForceZero.dir/build.make src/engine/CMakeFiles/G-ForceZero.dir/UCI.cpp.i
 .PHONY : UCI.cpp.i
 
 UCI.s: UCI.cpp.s
@@ -789,7 +789,7 @@ UCI.s: UCI.cpp.s
 
 # target to generate assembly for a file
 UCI.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/G-ForceZero.dir/build.make src/engine/CMakeFiles/G-ForceZero.dir/UCI.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/G-ForceZero.dir/build.make src/engine/CMakeFiles/G-ForceZero.dir/UCI.cpp.s
 .PHONY : UCI.cpp.s
 
 Waitable.o: Waitable.cpp.o
@@ -797,7 +797,7 @@ Waitable.o: Waitable.cpp.o
 
 # target to build an object file
 Waitable.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Waitable.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Waitable.cpp.o
 .PHONY : Waitable.cpp.o
 
 Waitable.i: Waitable.cpp.i
@@ -805,7 +805,7 @@ Waitable.i: Waitable.cpp.i
 
 # target to preprocess a source file
 Waitable.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Waitable.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Waitable.cpp.i
 .PHONY : Waitable.cpp.i
 
 Waitable.s: Waitable.cpp.s
@@ -813,7 +813,7 @@ Waitable.s: Waitable.cpp.s
 
 # target to generate assembly for a file
 Waitable.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Waitable.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/Waitable.cpp.s
 .PHONY : Waitable.cpp.s
 
 syzygy/tbprobe.o: syzygy/tbprobe.cpp.o
@@ -821,7 +821,7 @@ syzygy/tbprobe.o: syzygy/tbprobe.cpp.o
 
 # target to build an object file
 syzygy/tbprobe.cpp.o:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.o
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.o
 .PHONY : syzygy/tbprobe.cpp.o
 
 syzygy/tbprobe.i: syzygy/tbprobe.cpp.i
@@ -829,7 +829,7 @@ syzygy/tbprobe.i: syzygy/tbprobe.cpp.i
 
 # target to preprocess a source file
 syzygy/tbprobe.cpp.i:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.i
 .PHONY : syzygy/tbprobe.cpp.i
 
 syzygy/tbprobe.s: syzygy/tbprobe.cpp.s
@@ -837,7 +837,7 @@ syzygy/tbprobe.s: syzygy/tbprobe.cpp.s
 
 # target to generate assembly for a file
 syzygy/tbprobe.cpp.s:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine_lib.dir/build.make src/engine/CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.s
 .PHONY : syzygy/tbprobe.cpp.s
 
 # Help Target
@@ -948,6 +948,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/sid/Documents/GitHub/gforce/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

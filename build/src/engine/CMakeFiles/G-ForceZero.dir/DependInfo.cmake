@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/sid/Documents/GitHub/G-ForceZero/src/engine/UCI.cpp" "src/engine/CMakeFiles/G-ForceZero.dir/UCI.cpp.o" "gcc" "src/engine/CMakeFiles/G-ForceZero.dir/UCI.cpp.o.d"
-  "" "/home/sid/Documents/GitHub/G-ForceZero/G-ForceZero" "gcc" "src/engine/CMakeFiles/G-ForceZero.dir/link.d"
+  "/home/sid/Documents/GitHub/gforce/src/engine/UCI.cpp" "src/engine/CMakeFiles/G-ForceZero.dir/UCI.cpp.o" "gcc" "src/engine/CMakeFiles/G-ForceZero.dir/UCI.cpp.o.d"
+  "" "/home/sid/Documents/GitHub/gforce/G-ForceZero" "gcc" "src/engine/CMakeFiles/G-ForceZero.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

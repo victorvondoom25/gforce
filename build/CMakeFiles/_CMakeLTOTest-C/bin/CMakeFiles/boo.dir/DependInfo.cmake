@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles/_CMakeLTOTest-C/src/main.c" "/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/main.c.o"
+  "/home/sid/Documents/GitHub/gforce/build/CMakeFiles/_CMakeLTOTest-C/src/main.c" "/home/sid/Documents/GitHub/gforce/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

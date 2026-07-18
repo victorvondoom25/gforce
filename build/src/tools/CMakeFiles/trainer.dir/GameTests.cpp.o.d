@@ -1,9 +1,9 @@
 src/tools/CMakeFiles/trainer.dir/GameTests.cpp.o: \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/GameTests.cpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/GameTests.cpp \
  /usr/include/stdc-predef.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/GameCollection.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/Stream.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Common.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/GameCollection.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/Stream.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Common.hpp \
  /usr/include/inttypes.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
@@ -307,10 +307,10 @@ src/tools/CMakeFiles/trainer.dir/GameTests.cpp.o: \
  /usr/include/c++/16/bits/stl_vector.h \
  /usr/include/c++/16/bits/stl_bvector.h \
  /usr/include/c++/16/bits/vector.tcc \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/PositionUtils.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Bitboard.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/PositionUtils.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Bitboard.hpp \
  /usr/include/assert.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Material.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Material.hpp \
  /usr/include/c++/16/random /usr/include/c++/16/bits/random.h \
  /usr/include/c++/16/bits/uniform_int_dist.h \
  /usr/include/c++/16/x86_64-redhat-linux/bits/opt_random.h \
@@ -318,19 +318,19 @@ src/tools/CMakeFiles/trainer.dir/GameTests.cpp.o: \
  /usr/include/c++/16/bits/stl_numeric.h \
  /usr/include/c++/16/pstl/glue_numeric_defs.h \
  /usr/include/c++/16/pstl/execution_defs.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Move.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Square.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Piece.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Game.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Position.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/PositionHash.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Move.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Square.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Piece.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Game.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Position.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/PositionHash.hpp \
  /usr/include/c++/16/mutex /usr/include/c++/16/bits/chrono.h \
  /usr/include/c++/16/ratio /usr/include/c++/16/ctime \
  /usr/include/c++/16/bits/parse_numbers.h \
  /usr/include/c++/16/bits/std_mutex.h \
  /usr/include/c++/16/bits/unique_lock.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Search.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/MoveList.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Search.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/MoveList.hpp \
  /usr/include/c++/16/algorithm /usr/include/c++/16/bits/stl_algo.h \
  /usr/include/c++/16/bits/algorithmfwd.h \
  /usr/include/c++/16/bits/stl_heap.h \
@@ -338,12 +338,12 @@ src/tools/CMakeFiles/trainer.dir/GameTests.cpp.o: \
  /usr/include/c++/16/bits/ranges_algo.h \
  /usr/include/c++/16/bits/ranges_algobase.h \
  /usr/include/c++/16/pstl/glue_algorithm_defs.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/TranspositionTable.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Math.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/MoveOrderer.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Time.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Memory.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Score.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/TranspositionTable.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Math.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/MoveOrderer.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Time.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Memory.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Score.hpp \
  /usr/include/c++/16/sstream /usr/include/c++/16/bits/sstream.tcc \
  /usr/include/c++/16/iomanip /usr/include/c++/16/locale \
  /usr/include/c++/16/bits/locale_facets_nonio.h \
@@ -353,11 +353,11 @@ src/tools/CMakeFiles/trainer.dir/GameTests.cpp.o: \
  /usr/include/c++/16/bits/locale_facets_nonio.tcc \
  /usr/include/c++/16/bits/locale_conv.h \
  /usr/include/c++/16/bits/quoted_string.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/NeuralNetworkEvaluator.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Accumulator.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/PackedNeuralNetwork.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/NodeCache.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Numa.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/NeuralNetworkEvaluator.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Accumulator.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/PackedNeuralNetwork.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/NodeCache.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Numa.hpp \
  /usr/include/c++/16/memory \
  /usr/include/c++/16/bits/stl_raw_storage_iter.h \
  /usr/include/c++/16/bits/align.h /usr/include/c++/16/bits/unique_ptr.h \

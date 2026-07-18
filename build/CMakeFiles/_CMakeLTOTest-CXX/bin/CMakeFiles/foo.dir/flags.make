@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = 
 
-CXX_FLAGS = -g -flto=auto -fno-fat-lto-objects
+CXX_FLAGS = -flto=auto -fno-fat-lto-objects
 

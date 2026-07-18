@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sid/Documents/GitHub/G-ForceZero
+CMAKE_SOURCE_DIR = /home/sid/Documents/GitHub/gforce
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sid/Documents/GitHub/G-ForceZero/build
+CMAKE_BINARY_DIR = /home/sid/Documents/GitHub/gforce/build
 
 # Include any dependencies generated for this target.
 include src/engine/CMakeFiles/engine_lib.dir/depend.make
@@ -73,396 +73,396 @@ src/engine/CMakeFiles/engine_lib.dir/codegen:
 .PHONY : src/engine/CMakeFiles/engine_lib.dir/codegen
 
 src/engine/CMakeFiles/engine_lib.dir/Bitboard.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/Bitboard.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/Bitboard.cpp
+src/engine/CMakeFiles/engine_lib.dir/Bitboard.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/Bitboard.cpp
 src/engine/CMakeFiles/engine_lib.dir/Bitboard.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Bitboard.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Bitboard.cpp.o -MF CMakeFiles/engine_lib.dir/Bitboard.cpp.o.d -o CMakeFiles/engine_lib.dir/Bitboard.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/Bitboard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Bitboard.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Bitboard.cpp.o -MF CMakeFiles/engine_lib.dir/Bitboard.cpp.o.d -o CMakeFiles/engine_lib.dir/Bitboard.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/Bitboard.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/Bitboard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/Bitboard.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/Bitboard.cpp > CMakeFiles/engine_lib.dir/Bitboard.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/Bitboard.cpp > CMakeFiles/engine_lib.dir/Bitboard.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/Bitboard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/Bitboard.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/Bitboard.cpp -o CMakeFiles/engine_lib.dir/Bitboard.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/Bitboard.cpp -o CMakeFiles/engine_lib.dir/Bitboard.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/Common.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/Common.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/Common.cpp
+src/engine/CMakeFiles/engine_lib.dir/Common.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/Common.cpp
 src/engine/CMakeFiles/engine_lib.dir/Common.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Common.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Common.cpp.o -MF CMakeFiles/engine_lib.dir/Common.cpp.o.d -o CMakeFiles/engine_lib.dir/Common.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/Common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Common.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Common.cpp.o -MF CMakeFiles/engine_lib.dir/Common.cpp.o.d -o CMakeFiles/engine_lib.dir/Common.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/Common.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/Common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/Common.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/Common.cpp > CMakeFiles/engine_lib.dir/Common.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/Common.cpp > CMakeFiles/engine_lib.dir/Common.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/Common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/Common.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/Common.cpp -o CMakeFiles/engine_lib.dir/Common.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/Common.cpp -o CMakeFiles/engine_lib.dir/Common.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/Endgame.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/Endgame.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/Endgame.cpp
+src/engine/CMakeFiles/engine_lib.dir/Endgame.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/Endgame.cpp
 src/engine/CMakeFiles/engine_lib.dir/Endgame.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Endgame.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Endgame.cpp.o -MF CMakeFiles/engine_lib.dir/Endgame.cpp.o.d -o CMakeFiles/engine_lib.dir/Endgame.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/Endgame.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Endgame.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Endgame.cpp.o -MF CMakeFiles/engine_lib.dir/Endgame.cpp.o.d -o CMakeFiles/engine_lib.dir/Endgame.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/Endgame.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/Endgame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/Endgame.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/Endgame.cpp > CMakeFiles/engine_lib.dir/Endgame.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/Endgame.cpp > CMakeFiles/engine_lib.dir/Endgame.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/Endgame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/Endgame.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/Endgame.cpp -o CMakeFiles/engine_lib.dir/Endgame.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/Endgame.cpp -o CMakeFiles/engine_lib.dir/Endgame.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/Evaluate.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/Evaluate.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/Evaluate.cpp
+src/engine/CMakeFiles/engine_lib.dir/Evaluate.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/Evaluate.cpp
 src/engine/CMakeFiles/engine_lib.dir/Evaluate.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Evaluate.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Evaluate.cpp.o -MF CMakeFiles/engine_lib.dir/Evaluate.cpp.o.d -o CMakeFiles/engine_lib.dir/Evaluate.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/Evaluate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Evaluate.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Evaluate.cpp.o -MF CMakeFiles/engine_lib.dir/Evaluate.cpp.o.d -o CMakeFiles/engine_lib.dir/Evaluate.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/Evaluate.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/Evaluate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/Evaluate.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/Evaluate.cpp > CMakeFiles/engine_lib.dir/Evaluate.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/Evaluate.cpp > CMakeFiles/engine_lib.dir/Evaluate.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/Evaluate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/Evaluate.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/Evaluate.cpp -o CMakeFiles/engine_lib.dir/Evaluate.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/Evaluate.cpp -o CMakeFiles/engine_lib.dir/Evaluate.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/Game.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/Game.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/Game.cpp
+src/engine/CMakeFiles/engine_lib.dir/Game.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/Game.cpp
 src/engine/CMakeFiles/engine_lib.dir/Game.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Game.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Game.cpp.o -MF CMakeFiles/engine_lib.dir/Game.cpp.o.d -o CMakeFiles/engine_lib.dir/Game.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Game.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Game.cpp.o -MF CMakeFiles/engine_lib.dir/Game.cpp.o.d -o CMakeFiles/engine_lib.dir/Game.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/Game.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/Game.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/Game.cpp > CMakeFiles/engine_lib.dir/Game.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/Game.cpp > CMakeFiles/engine_lib.dir/Game.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/Game.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/Game.cpp -o CMakeFiles/engine_lib.dir/Game.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/Game.cpp -o CMakeFiles/engine_lib.dir/Game.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/Material.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/Material.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/Material.cpp
+src/engine/CMakeFiles/engine_lib.dir/Material.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/Material.cpp
 src/engine/CMakeFiles/engine_lib.dir/Material.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Material.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Material.cpp.o -MF CMakeFiles/engine_lib.dir/Material.cpp.o.d -o CMakeFiles/engine_lib.dir/Material.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/Material.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Material.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Material.cpp.o -MF CMakeFiles/engine_lib.dir/Material.cpp.o.d -o CMakeFiles/engine_lib.dir/Material.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/Material.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/Material.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/Material.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/Material.cpp > CMakeFiles/engine_lib.dir/Material.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/Material.cpp > CMakeFiles/engine_lib.dir/Material.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/Material.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/Material.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/Material.cpp -o CMakeFiles/engine_lib.dir/Material.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/Material.cpp -o CMakeFiles/engine_lib.dir/Material.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/Memory.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/Memory.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/Memory.cpp
+src/engine/CMakeFiles/engine_lib.dir/Memory.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/Memory.cpp
 src/engine/CMakeFiles/engine_lib.dir/Memory.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Memory.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Memory.cpp.o -MF CMakeFiles/engine_lib.dir/Memory.cpp.o.d -o CMakeFiles/engine_lib.dir/Memory.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/Memory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Memory.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Memory.cpp.o -MF CMakeFiles/engine_lib.dir/Memory.cpp.o.d -o CMakeFiles/engine_lib.dir/Memory.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/Memory.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/Memory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/Memory.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/Memory.cpp > CMakeFiles/engine_lib.dir/Memory.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/Memory.cpp > CMakeFiles/engine_lib.dir/Memory.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/Memory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/Memory.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/Memory.cpp -o CMakeFiles/engine_lib.dir/Memory.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/Memory.cpp -o CMakeFiles/engine_lib.dir/Memory.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/Move.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/Move.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/Move.cpp
+src/engine/CMakeFiles/engine_lib.dir/Move.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/Move.cpp
 src/engine/CMakeFiles/engine_lib.dir/Move.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Move.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Move.cpp.o -MF CMakeFiles/engine_lib.dir/Move.cpp.o.d -o CMakeFiles/engine_lib.dir/Move.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/Move.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Move.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Move.cpp.o -MF CMakeFiles/engine_lib.dir/Move.cpp.o.d -o CMakeFiles/engine_lib.dir/Move.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/Move.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/Move.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/Move.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/Move.cpp > CMakeFiles/engine_lib.dir/Move.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/Move.cpp > CMakeFiles/engine_lib.dir/Move.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/Move.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/Move.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/Move.cpp -o CMakeFiles/engine_lib.dir/Move.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/Move.cpp -o CMakeFiles/engine_lib.dir/Move.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/MoveList.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/MoveList.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/MoveList.cpp
+src/engine/CMakeFiles/engine_lib.dir/MoveList.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/MoveList.cpp
 src/engine/CMakeFiles/engine_lib.dir/MoveList.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/MoveList.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/MoveList.cpp.o -MF CMakeFiles/engine_lib.dir/MoveList.cpp.o.d -o CMakeFiles/engine_lib.dir/MoveList.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/MoveList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/MoveList.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/MoveList.cpp.o -MF CMakeFiles/engine_lib.dir/MoveList.cpp.o.d -o CMakeFiles/engine_lib.dir/MoveList.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/MoveList.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/MoveList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/MoveList.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/MoveList.cpp > CMakeFiles/engine_lib.dir/MoveList.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/MoveList.cpp > CMakeFiles/engine_lib.dir/MoveList.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/MoveList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/MoveList.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/MoveList.cpp -o CMakeFiles/engine_lib.dir/MoveList.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/MoveList.cpp -o CMakeFiles/engine_lib.dir/MoveList.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/MoveOrderer.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/MoveOrderer.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/MoveOrderer.cpp
+src/engine/CMakeFiles/engine_lib.dir/MoveOrderer.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/MoveOrderer.cpp
 src/engine/CMakeFiles/engine_lib.dir/MoveOrderer.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/MoveOrderer.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/MoveOrderer.cpp.o -MF CMakeFiles/engine_lib.dir/MoveOrderer.cpp.o.d -o CMakeFiles/engine_lib.dir/MoveOrderer.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/MoveOrderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/MoveOrderer.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/MoveOrderer.cpp.o -MF CMakeFiles/engine_lib.dir/MoveOrderer.cpp.o.d -o CMakeFiles/engine_lib.dir/MoveOrderer.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/MoveOrderer.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/MoveOrderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/MoveOrderer.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/MoveOrderer.cpp > CMakeFiles/engine_lib.dir/MoveOrderer.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/MoveOrderer.cpp > CMakeFiles/engine_lib.dir/MoveOrderer.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/MoveOrderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/MoveOrderer.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/MoveOrderer.cpp -o CMakeFiles/engine_lib.dir/MoveOrderer.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/MoveOrderer.cpp -o CMakeFiles/engine_lib.dir/MoveOrderer.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/MovePicker.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/MovePicker.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/MovePicker.cpp
+src/engine/CMakeFiles/engine_lib.dir/MovePicker.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/MovePicker.cpp
 src/engine/CMakeFiles/engine_lib.dir/MovePicker.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/MovePicker.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/MovePicker.cpp.o -MF CMakeFiles/engine_lib.dir/MovePicker.cpp.o.d -o CMakeFiles/engine_lib.dir/MovePicker.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/MovePicker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/MovePicker.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/MovePicker.cpp.o -MF CMakeFiles/engine_lib.dir/MovePicker.cpp.o.d -o CMakeFiles/engine_lib.dir/MovePicker.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/MovePicker.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/MovePicker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/MovePicker.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/MovePicker.cpp > CMakeFiles/engine_lib.dir/MovePicker.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/MovePicker.cpp > CMakeFiles/engine_lib.dir/MovePicker.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/MovePicker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/MovePicker.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/MovePicker.cpp -o CMakeFiles/engine_lib.dir/MovePicker.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/MovePicker.cpp -o CMakeFiles/engine_lib.dir/MovePicker.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/NeuralNetworkEvaluator.cpp
+src/engine/CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/NeuralNetworkEvaluator.cpp
 src/engine/CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.o -MF CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.o.d -o CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/NeuralNetworkEvaluator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.o -MF CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.o.d -o CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/NeuralNetworkEvaluator.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/NeuralNetworkEvaluator.cpp > CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/NeuralNetworkEvaluator.cpp > CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/NeuralNetworkEvaluator.cpp -o CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/NeuralNetworkEvaluator.cpp -o CMakeFiles/engine_lib.dir/NeuralNetworkEvaluator.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/NodeCache.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/NodeCache.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/NodeCache.cpp
+src/engine/CMakeFiles/engine_lib.dir/NodeCache.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/NodeCache.cpp
 src/engine/CMakeFiles/engine_lib.dir/NodeCache.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/NodeCache.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/NodeCache.cpp.o -MF CMakeFiles/engine_lib.dir/NodeCache.cpp.o.d -o CMakeFiles/engine_lib.dir/NodeCache.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/NodeCache.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/NodeCache.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/NodeCache.cpp.o -MF CMakeFiles/engine_lib.dir/NodeCache.cpp.o.d -o CMakeFiles/engine_lib.dir/NodeCache.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/NodeCache.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/NodeCache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/NodeCache.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/NodeCache.cpp > CMakeFiles/engine_lib.dir/NodeCache.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/NodeCache.cpp > CMakeFiles/engine_lib.dir/NodeCache.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/NodeCache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/NodeCache.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/NodeCache.cpp -o CMakeFiles/engine_lib.dir/NodeCache.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/NodeCache.cpp -o CMakeFiles/engine_lib.dir/NodeCache.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/Numa.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/Numa.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/Numa.cpp
+src/engine/CMakeFiles/engine_lib.dir/Numa.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/Numa.cpp
 src/engine/CMakeFiles/engine_lib.dir/Numa.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Numa.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Numa.cpp.o -MF CMakeFiles/engine_lib.dir/Numa.cpp.o.d -o CMakeFiles/engine_lib.dir/Numa.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/Numa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Numa.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Numa.cpp.o -MF CMakeFiles/engine_lib.dir/Numa.cpp.o.d -o CMakeFiles/engine_lib.dir/Numa.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/Numa.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/Numa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/Numa.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/Numa.cpp > CMakeFiles/engine_lib.dir/Numa.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/Numa.cpp > CMakeFiles/engine_lib.dir/Numa.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/Numa.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/Numa.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/Numa.cpp -o CMakeFiles/engine_lib.dir/Numa.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/Numa.cpp -o CMakeFiles/engine_lib.dir/Numa.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/PackedNeuralNetwork.cpp
+src/engine/CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/PackedNeuralNetwork.cpp
 src/engine/CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.o -MF CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.o.d -o CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/PackedNeuralNetwork.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.o -MF CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.o.d -o CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/PackedNeuralNetwork.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/PackedNeuralNetwork.cpp > CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/PackedNeuralNetwork.cpp > CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/PackedNeuralNetwork.cpp -o CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/PackedNeuralNetwork.cpp -o CMakeFiles/engine_lib.dir/PackedNeuralNetwork.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/Position.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/Position.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/Position.cpp
+src/engine/CMakeFiles/engine_lib.dir/Position.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/Position.cpp
 src/engine/CMakeFiles/engine_lib.dir/Position.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Position.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Position.cpp.o -MF CMakeFiles/engine_lib.dir/Position.cpp.o.d -o CMakeFiles/engine_lib.dir/Position.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/Position.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Position.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Position.cpp.o -MF CMakeFiles/engine_lib.dir/Position.cpp.o.d -o CMakeFiles/engine_lib.dir/Position.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/Position.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/Position.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/Position.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/Position.cpp > CMakeFiles/engine_lib.dir/Position.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/Position.cpp > CMakeFiles/engine_lib.dir/Position.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/Position.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/Position.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/Position.cpp -o CMakeFiles/engine_lib.dir/Position.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/Position.cpp -o CMakeFiles/engine_lib.dir/Position.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/PositionHash.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/PositionHash.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/PositionHash.cpp
+src/engine/CMakeFiles/engine_lib.dir/PositionHash.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/PositionHash.cpp
 src/engine/CMakeFiles/engine_lib.dir/PositionHash.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/PositionHash.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/PositionHash.cpp.o -MF CMakeFiles/engine_lib.dir/PositionHash.cpp.o.d -o CMakeFiles/engine_lib.dir/PositionHash.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/PositionHash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/PositionHash.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/PositionHash.cpp.o -MF CMakeFiles/engine_lib.dir/PositionHash.cpp.o.d -o CMakeFiles/engine_lib.dir/PositionHash.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/PositionHash.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/PositionHash.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/PositionHash.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/PositionHash.cpp > CMakeFiles/engine_lib.dir/PositionHash.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/PositionHash.cpp > CMakeFiles/engine_lib.dir/PositionHash.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/PositionHash.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/PositionHash.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/PositionHash.cpp -o CMakeFiles/engine_lib.dir/PositionHash.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/PositionHash.cpp -o CMakeFiles/engine_lib.dir/PositionHash.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/PositionUtils.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/PositionUtils.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/PositionUtils.cpp
+src/engine/CMakeFiles/engine_lib.dir/PositionUtils.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/PositionUtils.cpp
 src/engine/CMakeFiles/engine_lib.dir/PositionUtils.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/PositionUtils.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/PositionUtils.cpp.o -MF CMakeFiles/engine_lib.dir/PositionUtils.cpp.o.d -o CMakeFiles/engine_lib.dir/PositionUtils.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/PositionUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/PositionUtils.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/PositionUtils.cpp.o -MF CMakeFiles/engine_lib.dir/PositionUtils.cpp.o.d -o CMakeFiles/engine_lib.dir/PositionUtils.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/PositionUtils.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/PositionUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/PositionUtils.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/PositionUtils.cpp > CMakeFiles/engine_lib.dir/PositionUtils.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/PositionUtils.cpp > CMakeFiles/engine_lib.dir/PositionUtils.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/PositionUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/PositionUtils.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/PositionUtils.cpp -o CMakeFiles/engine_lib.dir/PositionUtils.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/PositionUtils.cpp -o CMakeFiles/engine_lib.dir/PositionUtils.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/Search.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/Search.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/Search.cpp
+src/engine/CMakeFiles/engine_lib.dir/Search.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/Search.cpp
 src/engine/CMakeFiles/engine_lib.dir/Search.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Search.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Search.cpp.o -MF CMakeFiles/engine_lib.dir/Search.cpp.o.d -o CMakeFiles/engine_lib.dir/Search.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/Search.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Search.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Search.cpp.o -MF CMakeFiles/engine_lib.dir/Search.cpp.o.d -o CMakeFiles/engine_lib.dir/Search.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/Search.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/Search.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/Search.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/Search.cpp > CMakeFiles/engine_lib.dir/Search.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/Search.cpp > CMakeFiles/engine_lib.dir/Search.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/Search.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/Search.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/Search.cpp -o CMakeFiles/engine_lib.dir/Search.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/Search.cpp -o CMakeFiles/engine_lib.dir/Search.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/SearchUtils.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/SearchUtils.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/SearchUtils.cpp
+src/engine/CMakeFiles/engine_lib.dir/SearchUtils.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/SearchUtils.cpp
 src/engine/CMakeFiles/engine_lib.dir/SearchUtils.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/SearchUtils.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/SearchUtils.cpp.o -MF CMakeFiles/engine_lib.dir/SearchUtils.cpp.o.d -o CMakeFiles/engine_lib.dir/SearchUtils.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/SearchUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/SearchUtils.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/SearchUtils.cpp.o -MF CMakeFiles/engine_lib.dir/SearchUtils.cpp.o.d -o CMakeFiles/engine_lib.dir/SearchUtils.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/SearchUtils.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/SearchUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/SearchUtils.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/SearchUtils.cpp > CMakeFiles/engine_lib.dir/SearchUtils.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/SearchUtils.cpp > CMakeFiles/engine_lib.dir/SearchUtils.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/SearchUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/SearchUtils.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/SearchUtils.cpp -o CMakeFiles/engine_lib.dir/SearchUtils.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/SearchUtils.cpp -o CMakeFiles/engine_lib.dir/SearchUtils.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/Square.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/Square.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/Square.cpp
+src/engine/CMakeFiles/engine_lib.dir/Square.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/Square.cpp
 src/engine/CMakeFiles/engine_lib.dir/Square.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Square.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Square.cpp.o -MF CMakeFiles/engine_lib.dir/Square.cpp.o.d -o CMakeFiles/engine_lib.dir/Square.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/Square.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Square.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Square.cpp.o -MF CMakeFiles/engine_lib.dir/Square.cpp.o.d -o CMakeFiles/engine_lib.dir/Square.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/Square.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/Square.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/Square.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/Square.cpp > CMakeFiles/engine_lib.dir/Square.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/Square.cpp > CMakeFiles/engine_lib.dir/Square.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/Square.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/Square.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/Square.cpp -o CMakeFiles/engine_lib.dir/Square.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/Square.cpp -o CMakeFiles/engine_lib.dir/Square.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/Tablebase.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/Tablebase.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/Tablebase.cpp
+src/engine/CMakeFiles/engine_lib.dir/Tablebase.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/Tablebase.cpp
 src/engine/CMakeFiles/engine_lib.dir/Tablebase.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Tablebase.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Tablebase.cpp.o -MF CMakeFiles/engine_lib.dir/Tablebase.cpp.o.d -o CMakeFiles/engine_lib.dir/Tablebase.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/Tablebase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Tablebase.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Tablebase.cpp.o -MF CMakeFiles/engine_lib.dir/Tablebase.cpp.o.d -o CMakeFiles/engine_lib.dir/Tablebase.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/Tablebase.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/Tablebase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/Tablebase.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/Tablebase.cpp > CMakeFiles/engine_lib.dir/Tablebase.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/Tablebase.cpp > CMakeFiles/engine_lib.dir/Tablebase.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/Tablebase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/Tablebase.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/Tablebase.cpp -o CMakeFiles/engine_lib.dir/Tablebase.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/Tablebase.cpp -o CMakeFiles/engine_lib.dir/Tablebase.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/Time.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/Time.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/Time.cpp
+src/engine/CMakeFiles/engine_lib.dir/Time.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/Time.cpp
 src/engine/CMakeFiles/engine_lib.dir/Time.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Time.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Time.cpp.o -MF CMakeFiles/engine_lib.dir/Time.cpp.o.d -o CMakeFiles/engine_lib.dir/Time.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/Time.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Time.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Time.cpp.o -MF CMakeFiles/engine_lib.dir/Time.cpp.o.d -o CMakeFiles/engine_lib.dir/Time.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/Time.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/Time.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/Time.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/Time.cpp > CMakeFiles/engine_lib.dir/Time.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/Time.cpp > CMakeFiles/engine_lib.dir/Time.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/Time.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/Time.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/Time.cpp -o CMakeFiles/engine_lib.dir/Time.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/Time.cpp -o CMakeFiles/engine_lib.dir/Time.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/TimeManager.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/TimeManager.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/TimeManager.cpp
+src/engine/CMakeFiles/engine_lib.dir/TimeManager.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/TimeManager.cpp
 src/engine/CMakeFiles/engine_lib.dir/TimeManager.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/TimeManager.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/TimeManager.cpp.o -MF CMakeFiles/engine_lib.dir/TimeManager.cpp.o.d -o CMakeFiles/engine_lib.dir/TimeManager.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/TimeManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/TimeManager.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/TimeManager.cpp.o -MF CMakeFiles/engine_lib.dir/TimeManager.cpp.o.d -o CMakeFiles/engine_lib.dir/TimeManager.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/TimeManager.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/TimeManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/TimeManager.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/TimeManager.cpp > CMakeFiles/engine_lib.dir/TimeManager.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/TimeManager.cpp > CMakeFiles/engine_lib.dir/TimeManager.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/TimeManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/TimeManager.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/TimeManager.cpp -o CMakeFiles/engine_lib.dir/TimeManager.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/TimeManager.cpp -o CMakeFiles/engine_lib.dir/TimeManager.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/TranspositionTable.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/TranspositionTable.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/TranspositionTable.cpp
+src/engine/CMakeFiles/engine_lib.dir/TranspositionTable.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/TranspositionTable.cpp
 src/engine/CMakeFiles/engine_lib.dir/TranspositionTable.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/TranspositionTable.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/TranspositionTable.cpp.o -MF CMakeFiles/engine_lib.dir/TranspositionTable.cpp.o.d -o CMakeFiles/engine_lib.dir/TranspositionTable.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/TranspositionTable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/TranspositionTable.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/TranspositionTable.cpp.o -MF CMakeFiles/engine_lib.dir/TranspositionTable.cpp.o.d -o CMakeFiles/engine_lib.dir/TranspositionTable.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/TranspositionTable.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/TranspositionTable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/TranspositionTable.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/TranspositionTable.cpp > CMakeFiles/engine_lib.dir/TranspositionTable.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/TranspositionTable.cpp > CMakeFiles/engine_lib.dir/TranspositionTable.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/TranspositionTable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/TranspositionTable.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/TranspositionTable.cpp -o CMakeFiles/engine_lib.dir/TranspositionTable.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/TranspositionTable.cpp -o CMakeFiles/engine_lib.dir/TranspositionTable.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/Tuning.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/Tuning.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/Tuning.cpp
+src/engine/CMakeFiles/engine_lib.dir/Tuning.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/Tuning.cpp
 src/engine/CMakeFiles/engine_lib.dir/Tuning.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Tuning.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Tuning.cpp.o -MF CMakeFiles/engine_lib.dir/Tuning.cpp.o.d -o CMakeFiles/engine_lib.dir/Tuning.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/Tuning.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Tuning.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Tuning.cpp.o -MF CMakeFiles/engine_lib.dir/Tuning.cpp.o.d -o CMakeFiles/engine_lib.dir/Tuning.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/Tuning.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/Tuning.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/Tuning.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/Tuning.cpp > CMakeFiles/engine_lib.dir/Tuning.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/Tuning.cpp > CMakeFiles/engine_lib.dir/Tuning.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/Tuning.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/Tuning.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/Tuning.cpp -o CMakeFiles/engine_lib.dir/Tuning.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/Tuning.cpp -o CMakeFiles/engine_lib.dir/Tuning.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/Waitable.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/Waitable.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/Waitable.cpp
+src/engine/CMakeFiles/engine_lib.dir/Waitable.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/Waitable.cpp
 src/engine/CMakeFiles/engine_lib.dir/Waitable.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Waitable.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Waitable.cpp.o -MF CMakeFiles/engine_lib.dir/Waitable.cpp.o.d -o CMakeFiles/engine_lib.dir/Waitable.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/Waitable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/Waitable.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/Waitable.cpp.o -MF CMakeFiles/engine_lib.dir/Waitable.cpp.o.d -o CMakeFiles/engine_lib.dir/Waitable.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/Waitable.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/Waitable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/Waitable.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/Waitable.cpp > CMakeFiles/engine_lib.dir/Waitable.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/Waitable.cpp > CMakeFiles/engine_lib.dir/Waitable.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/Waitable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/Waitable.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/Waitable.cpp -o CMakeFiles/engine_lib.dir/Waitable.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/Waitable.cpp -o CMakeFiles/engine_lib.dir/Waitable.cpp.s
 
 src/engine/CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.o: src/engine/CMakeFiles/engine_lib.dir/flags.make
-src/engine/CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.o: /home/sid/Documents/GitHub/G-ForceZero/src/engine/syzygy/tbprobe.cpp
+src/engine/CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.o: /home/sid/Documents/GitHub/gforce/src/engine/syzygy/tbprobe.cpp
 src/engine/CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.o: src/engine/CMakeFiles/engine_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.o"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.o -MF CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.o.d -o CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.o -c /home/sid/Documents/GitHub/G-ForceZero/src/engine/syzygy/tbprobe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object src/engine/CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.o"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.o -MF CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.o.d -o CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.o -c /home/sid/Documents/GitHub/gforce/src/engine/syzygy/tbprobe.cpp
 
 src/engine/CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.i"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/G-ForceZero/src/engine/syzygy/tbprobe.cpp > CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.i
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sid/Documents/GitHub/gforce/src/engine/syzygy/tbprobe.cpp > CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.i
 
 src/engine/CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.s"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/G-ForceZero/src/engine/syzygy/tbprobe.cpp -o CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.s
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sid/Documents/GitHub/gforce/src/engine/syzygy/tbprobe.cpp -o CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.s
 
 # Object files for target engine_lib
 engine_lib_OBJECTS = \
@@ -528,19 +528,19 @@ lib/libengine_lib.a: src/engine/CMakeFiles/engine_lib.dir/Waitable.cpp.o
 lib/libengine_lib.a: src/engine/CMakeFiles/engine_lib.dir/syzygy/tbprobe.cpp.o
 lib/libengine_lib.a: src/engine/CMakeFiles/engine_lib.dir/build.make
 lib/libengine_lib.a: src/engine/CMakeFiles/engine_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sid/Documents/GitHub/G-ForceZero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX static library ../../lib/libengine_lib.a"
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && $(CMAKE_COMMAND) -P CMakeFiles/engine_lib.dir/cmake_clean_target.cmake
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/engine_lib.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sid/Documents/GitHub/gforce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX static library ../../lib/libengine_lib.a"
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && $(CMAKE_COMMAND) -P CMakeFiles/engine_lib.dir/cmake_clean_target.cmake
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/engine_lib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/engine/CMakeFiles/engine_lib.dir/build: lib/libengine_lib.a
 .PHONY : src/engine/CMakeFiles/engine_lib.dir/build
 
 src/engine/CMakeFiles/engine_lib.dir/clean:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build/src/engine && $(CMAKE_COMMAND) -P CMakeFiles/engine_lib.dir/cmake_clean.cmake
+	cd /home/sid/Documents/GitHub/gforce/build/src/engine && $(CMAKE_COMMAND) -P CMakeFiles/engine_lib.dir/cmake_clean.cmake
 .PHONY : src/engine/CMakeFiles/engine_lib.dir/clean
 
 src/engine/CMakeFiles/engine_lib.dir/depend:
-	cd /home/sid/Documents/GitHub/G-ForceZero/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sid/Documents/GitHub/G-ForceZero /home/sid/Documents/GitHub/G-ForceZero/src/engine /home/sid/Documents/GitHub/G-ForceZero/build /home/sid/Documents/GitHub/G-ForceZero/build/src/engine /home/sid/Documents/GitHub/G-ForceZero/build/src/engine/CMakeFiles/engine_lib.dir/DependInfo.cmake "--color=$(COLOR)" engine_lib
+	cd /home/sid/Documents/GitHub/gforce/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sid/Documents/GitHub/gforce /home/sid/Documents/GitHub/gforce/src/engine /home/sid/Documents/GitHub/gforce/build /home/sid/Documents/GitHub/gforce/build/src/engine /home/sid/Documents/GitHub/gforce/build/src/engine/CMakeFiles/engine_lib.dir/DependInfo.cmake "--color=$(COLOR)" engine_lib
 .PHONY : src/engine/CMakeFiles/engine_lib.dir/depend
 

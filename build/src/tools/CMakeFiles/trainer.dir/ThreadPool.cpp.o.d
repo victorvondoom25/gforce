@@ -1,9 +1,9 @@
 src/tools/CMakeFiles/trainer.dir/ThreadPool.cpp.o: \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/ThreadPool.cpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/ThreadPool.cpp \
  /usr/include/stdc-predef.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/ThreadPool.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/Common.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Common.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/ThreadPool.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/Common.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Common.hpp \
  /usr/include/inttypes.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
@@ -339,7 +339,7 @@ src/tools/CMakeFiles/trainer.dir/ThreadPool.cpp.o: \
  /usr/include/c++/16/pstl/glue_memory_defs.h \
  /usr/include/c++/16/pstl/execution_defs.h /usr/include/c++/16/deque \
  /usr/include/c++/16/bits/stl_deque.h /usr/include/c++/16/bits/deque.tcc \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Waitable.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Waitable.hpp \
  /usr/include/c++/16/mutex \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/minitrace/minitrace.h \
+ /home/sid/Documents/GitHub/gforce/src/tools/minitrace/minitrace.h \
  /usr/include/assert.h

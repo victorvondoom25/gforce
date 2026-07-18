@@ -1,4 +1,4 @@
-/home/sid/Documents/GitHub/G-ForceZero/G-ForceZero: \
+/home/sid/Documents/GitHub/gforce/G-ForceZero: \
   /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o \
   /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o \
   /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o \

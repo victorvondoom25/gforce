@@ -1,10 +1,10 @@
 src/engine/CMakeFiles/engine_lib.dir/Evaluate.cpp.o: \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Evaluate.cpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Evaluate.cpp \
  /usr/include/stdc-predef.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Evaluate.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Position.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/PositionHash.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Common.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Evaluate.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Position.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/PositionHash.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Common.hpp \
  /usr/include/inttypes.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
@@ -304,16 +304,16 @@ src/engine/CMakeFiles/engine_lib.dir/Evaluate.cpp.o: \
  /usr/include/linux/close_range.h /usr/include/bits/ss_flags.h \
  /usr/include/bits/types/struct_sigstack.h /usr/include/bits/sigthread.h \
  /usr/include/bits/signal_ext.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Piece.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Square.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Bitboard.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Piece.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Square.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Bitboard.hpp \
  /usr/include/assert.h /usr/include/c++/16/vector \
  /usr/include/c++/16/bits/stl_uninitialized.h \
  /usr/include/c++/16/bits/stl_vector.h \
  /usr/include/c++/16/bits/stl_bvector.h \
  /usr/include/c++/16/bits/vector.tcc \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Move.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Score.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Move.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Score.hpp \
  /usr/include/c++/16/sstream /usr/include/c++/16/bits/sstream.tcc \
  /usr/include/c++/16/iomanip /usr/include/c++/16/locale \
  /usr/include/c++/16/bits/locale_facets_nonio.h /usr/include/c++/16/ctime \
@@ -344,19 +344,19 @@ src/engine/CMakeFiles/engine_lib.dir/Evaluate.cpp.o: \
  /usr/include/c++/16/backward/auto_ptr.h \
  /usr/include/c++/16/bits/ranges_uninitialized.h \
  /usr/include/c++/16/pstl/glue_memory_defs.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Endgame.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Search.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/MoveList.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/TranspositionTable.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Math.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/MoveOrderer.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Time.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Memory.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/NeuralNetworkEvaluator.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Accumulator.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/PackedNeuralNetwork.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/NodeCache.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Numa.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Endgame.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Search.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/MoveList.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/TranspositionTable.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Math.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/MoveOrderer.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Time.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Memory.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/NeuralNetworkEvaluator.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Accumulator.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/PackedNeuralNetwork.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/NodeCache.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Numa.hpp \
  /usr/include/c++/16/thread /usr/include/c++/16/stop_token \
  /usr/include/c++/16/bits/std_thread.h /usr/include/c++/16/semaphore \
  /usr/include/c++/16/bits/semaphore_base.h \
@@ -377,4 +377,8 @@ src/engine/CMakeFiles/engine_lib.dir/Evaluate.cpp.o: \
  /usr/include/c++/16/bits/binders.h /usr/include/c++/16/fstream \
  /usr/include/c++/16/x86_64-redhat-linux/bits/basic_file.h \
  /usr/include/c++/16/x86_64-redhat-linux/bits/c++io.h \
- /usr/include/c++/16/bits/fstream.tcc
+ /usr/include/c++/16/bits/fstream.tcc \
+ /home/sid/Documents/GitHub/gforce/src/engine/EvaluateUtils.hpp \
+ /usr/include/c++/16/filesystem /usr/include/c++/16/bits/fs_fwd.h \
+ /usr/include/c++/16/bits/fs_path.h /usr/include/c++/16/codecvt \
+ /usr/include/c++/16/bits/fs_dir.h /usr/include/c++/16/bits/fs_ops.h

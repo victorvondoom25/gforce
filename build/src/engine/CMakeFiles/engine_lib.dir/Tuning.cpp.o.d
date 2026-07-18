@@ -1,8 +1,8 @@
 src/engine/CMakeFiles/engine_lib.dir/Tuning.cpp.o: \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Tuning.cpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Tuning.cpp \
  /usr/include/stdc-predef.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Tuning.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/engine/Common.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Tuning.hpp \
+ /home/sid/Documents/GitHub/gforce/src/engine/Common.hpp \
  /usr/include/inttypes.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \

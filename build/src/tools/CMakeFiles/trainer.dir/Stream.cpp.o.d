@@ -1,8 +1,8 @@
 src/tools/CMakeFiles/trainer.dir/Stream.cpp.o: \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/Stream.cpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/Stream.cpp \
  /usr/include/stdc-predef.h \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/Stream.hpp \
- /home/sid/Documents/GitHub/G-ForceZero/src/tools/../engine/Common.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/Stream.hpp \
+ /home/sid/Documents/GitHub/gforce/src/tools/../engine/Common.hpp \
  /usr/include/inttypes.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
