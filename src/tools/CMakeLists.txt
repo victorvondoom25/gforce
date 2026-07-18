@@ -1,5 +1,5 @@
 # Optional CUDA support
-# find_package(CUDAToolkit QUIET)
+find_package(CUDAToolkit QUIET)
 
 include(CheckLanguage)
 check_language(CUDA)
@@ -46,9 +46,10 @@ if (NOT MSVC)
 	endif()
 endif()
 
-if (FALSE)
+if (CMAKE_CUDA_COMPILER)
     target_compile_definitions(trainer PRIVATE USE_CUDA)
     target_link_libraries(trainer PRIVATE CUDA::cudart)
+    target_compile_options(trainer PRIVATE $<$<COMPILE_LANGUAGE:CUDA>:-allow-unsupported-compiler>)
     set_property(TARGET trainer PROPERTY CUDA_ARCHITECTURES native)
     set_property(TARGET trainer PROPERTY CUDA_SEPARABLE_COMPILATION ON)
     set_target_properties(trainer PROPERTIES

@@ -14,7 +14,7 @@
         cudaError_t error = call; \
         if (error != cudaSuccess) { \
             std::cerr << "CUDA error at " << __FILE__ << ":" << __LINE__ << ": " << cudaGetErrorString(error) << std::endl; \
-            __debugbreak(); \
+            __builtin_trap(); \
             exit(1); \
         } \
     } while(0)
@@ -71,7 +71,7 @@ public:
         if (size > m_size)
         {
             std::cerr << "CudaBuffer::CopyToHost size " << size << " exceeds buffer size " << m_size << std::endl;
-            __debugbreak();
+            __builtin_trap();
             exit(1);
         }
         CUDA_CHECK(cudaMemcpy(hostData, m_data, size * sizeof(T), cudaMemcpyDeviceToHost));
