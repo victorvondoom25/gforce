@@ -21,6 +21,8 @@
 #include "../engine/Tablebase.hpp"
 #include "../engine/PackedNeuralNetwork.hpp"
 #include "../engine/Waitable.hpp"
+#include "../engine/TimeManager.hpp"
+#include "TrainerUtils.hpp"
 
 #include <iostream>
 #include <iomanip>
@@ -609,7 +611,7 @@ bool NetworkTrainer::Train()
 {
     InitNetwork();
 
-    if (!m_packedNet.LoadFromFile("gforce-01.nnue"))
+    if (!m_packedNet.LoadFromFile(GetLatestNetworkName("").c_str()))
     {
         std::cout << "ERROR: Failed to load packed network" << std::endl;
         return false;
@@ -742,7 +744,7 @@ bool NetworkTrainer::Train()
 
         if (iteration % 10 == 0)
         {
-            const std::string name = "eval";
+            const std::string name = GetNextNetworkSaveName("");
             m_network.Save((name + ".nn").c_str());
 #ifdef USE_PACKED_NET
             m_packedNet.SaveToFile((name + ".nnue").c_str());

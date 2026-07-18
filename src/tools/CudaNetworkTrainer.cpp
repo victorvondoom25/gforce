@@ -5,7 +5,9 @@
 #include "cudaTrainer/CudaNetwork.hpp"
 #include "cudaTrainer/CudaCommon.hpp"
 
-#include "../engine/Position.hpp"
+#include "../engine/PositionHash.hpp"
+#include "TrainerUtils.hpp"
+
 #include "../engine/PositionUtils.hpp"
 #include "../engine/Game.hpp"
 #include "../engine/Move.hpp"
@@ -657,7 +659,7 @@ bool CudaNetworkTrainer::Train()
 {
     InitNetwork();
 
-    if (!UnpackNetwork("gforce-01.nnue"))
+    if (!UnpackNetwork(GetLatestNetworkName("").c_str()))
         return false;
 
     // Copy unpacked weights to CUDA
@@ -749,7 +751,7 @@ bool CudaNetworkTrainer::Train()
 
         if (iteration % 50 == 2)
         {
-            const std::string name = "eval";
+            const std::string name = GetNextNetworkSaveName("");
 #ifdef USE_PACKED_NET_VALIDATION
             m_packedNet->SaveToFile((name + ".nnue").c_str());
 #endif // USE_PACKED_NET_VALIDATION

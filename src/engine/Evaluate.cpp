@@ -4,6 +4,8 @@
 
 #include <fstream>
 
+#include "EvaluateUtils.hpp"
+
 #if defined(GEFORCE_EVALFILE)
 
     // embed eval file into executable
@@ -17,7 +19,8 @@
 #else // !defined(GEFORCE_EVALFILE)
 
     // use eval file
-    const char* c_DefaultEvalFile = "gforce-01.nnue";
+    // use eval file (resolved at runtime in load function)
+    const char* c_DefaultEvalFile = "";
 
 #endif // defined(GEFORCE_EVALFILE)
 
@@ -97,7 +100,11 @@ bool TryLoadingDefaultEvalFile()
 
     // check if there's eval file in same directory as executable
     {
-        std::string path = GetDefaultEvalFilePath() + c_DefaultEvalFile;
+        std::string latestNet = c_DefaultEvalFile;
+        if (latestNet.empty()) {
+            latestNet = GetLatestNetworkName(GetDefaultEvalFilePath());
+        }
+        std::string path = GetDefaultEvalFilePath() + latestNet;
         if (!path.empty())
         {
             bool fileExists = false;
