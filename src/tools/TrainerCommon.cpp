@@ -11,59 +11,50 @@
 
 static_assert(sizeof(PositionEntry) == 32, "Invalid PositionEntry size");
 
-bool TrainingDataLoader::Init(std::mt19937& gen, const std::vector<std::string>& trainingDataPaths)
+bool TrainingDataLoader::Init(std::mt19937& gen, const std::string& trainingDataPath)
 {
     uint64_t totalDataSize = 0;
 
     mCDF.push_back(0.0);
 
-    for (const auto& trainingDataPath : trainingDataPaths)
+    for (const auto& path : std::filesystem::directory_iterator(trainingDataPath))
     {
-        if (!std::filesystem::exists(trainingDataPath))
-            continue;
+        const std::string& fileName = path.path().string();
+        auto fileStream = std::make_unique<FileInputStream>(fileName.c_str());
 
-        for (const auto& path : std::filesystem::directory_iterator(trainingDataPath))
+        uint64_t fileSize = fileStream->GetSize();
+        totalDataSize += fileSize;
+
+        if (fileStream->IsOpen() && fileSize > sizeof(PositionEntry))
         {
-            if (path.path().extension() != ".dat")
-                continue;
+            InputFileContext& ctx = mContexts.emplace_back();
+            ctx.mutex = std::make_unique<std::mutex>();
+            ctx.fileStream = std::move(fileStream);
+            ctx.fileName = fileName;
+            ctx.fileSize = fileSize;
 
-            const std::string& fileName = path.path().string();
-            auto fileStream = std::make_unique<FileInputStream>(fileName.c_str());
-
-            uint64_t fileSize = fileStream->GetSize();
-            totalDataSize += fileSize;
-
-            if (fileStream->IsOpen() && fileSize > sizeof(PositionEntry))
+            // Seek to random location so that each stream starts at different position.
             {
-                InputFileContext& ctx = mContexts.emplace_back();
-                ctx.mutex = std::make_unique<std::mutex>();
-                ctx.fileStream = std::move(fileStream);
-                ctx.fileName = fileName;
-                ctx.fileSize = fileSize;
-
-                // Seek to random location so that each stream starts at different position.
-                {
-                    const uint64_t numEntries = fileSize / sizeof(PositionEntry);
-                    std::uniform_int_distribution<uint64_t> distr(0, numEntries - 1);
-                    const uint64_t entryIndex = distr(gen);
-                    ctx.fileStream->SetPosition(entryIndex * sizeof(PositionEntry));
-                }
-
-                // Set a small, random skipping probability.
-                // The idea is to have each stream running at different rates
-                // so there's lower chance of generating similar batches from different streams.
-                // Basically, it's another layer of data shuffling.
-                {
-                    std::uniform_real_distribution<float> distr(0.0f, 0.1f);
-                    ctx.skippingProbability = distr(gen);
-                }
-
-                mCDF.push_back((double)totalDataSize);
+                const uint64_t numEntries = fileSize / sizeof(PositionEntry);
+                std::uniform_int_distribution<uint64_t> distr(0, numEntries - 1);
+                const uint64_t entryIndex = distr(gen);
+                ctx.fileStream->SetPosition(entryIndex * sizeof(PositionEntry));
             }
-            else
+
+            // Set a small, random skipping probability.
+            // The idea is to have each stream running at different rates
+            // so there's lower chance of generating similar batches from different streams.
+            // Basically, it's another layer of data shuffling.
             {
-                std::cout << "ERROR: Failed to load data file: " << fileName << std::endl;
+                std::uniform_real_distribution<float> distr(0.0f, 0.1f);
+                ctx.skippingProbability = distr(gen);
             }
+
+            mCDF.push_back((double)totalDataSize);
+        }
+        else
+        {
+            std::cout << "ERROR: Failed to load selfplay data file: " << fileName << std::endl;
         }
     }
 

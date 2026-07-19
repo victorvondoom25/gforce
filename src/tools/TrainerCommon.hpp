@@ -34,10 +34,10 @@ class TrainingDataLoader
 {
 public:
 
-    // initialize the loader at given directories
+    // initialize the loader at given directory
     bool Init(
         std::mt19937& gen,
-        const std::vector<std::string>& trainingDataPaths = {DATA_PATH "trainingData/", DATA_PATH "selfplayGames/"});
+        const std::string& trainingDataPath = DATA_PATH "trainingData/");
 
     // sample new position from the training set
     bool FetchNextPosition(std::mt19937& gen, PositionEntry& outEntry, Position& outPosition, uint64_t kingBucketMask) const;
