@@ -217,7 +217,7 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR})
 
 # Download neural net to data/neuralNets/ once (shared across all build dirs and configurations)
-set(DEFAULT_NEURAL_NET_FILE_NAME gforce-20.nnue)
+set(DEFAULT_NEURAL_NET_FILE_NAME gforce.nnue)
 set(NET_VERSION "eval-82-383B")
 set(NET_DOWNLOAD_URL "https://github.com/Witek902/G-ForceZero-Nets/releases/download/${NET_VERSION}/${DEFAULT_NEURAL_NET_FILE_NAME}")
 set(NET_SOURCE "${CMAKE_SOURCE_DIR}/data/neuralNets/${DEFAULT_NEURAL_NET_FILE_NAME}")
