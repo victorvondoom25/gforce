@@ -456,14 +456,9 @@ void SelfPlay(const std::vector<std::string>& args)
     }
     std::cout << "Loaded " << openingPositions.size() << " opening positions\n";
 
-    if (openingPositions.empty())
-    {
-        std::cout << "No opening positions loaded!\n";
-        return;
-    }
-
     // Start at a random offset so every run covers a different segment first, but from there pick sequentially
-    std::atomic<uint32_t> openingCounter;
+    std::atomic<uint32_t> openingCounter{0};
+    if (!openingPositions.empty())
     {
         std::random_device rd;
         std::mt19937 gen(rd());
