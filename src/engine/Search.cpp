@@ -121,13 +121,6 @@ DEFINE_PARAM(RazoringMarginMultiplier, 158, 100, 200);
 DEFINE_PARAM(RazoringMarginBias, 22, 10, 50);
 DEFINE_PARAM(RazoringWinGuard, 1200, 1000, 3000);
 
-// Multi-Cut pruning: if C of the first M moves beat beta at a reduced depth,
-// assume this is a cut-node and prune the whole subtree.
-DEFINE_PARAM(MultiCutMinDepth,    5, 3, 10);
-DEFINE_PARAM(MultiCutReduction,   3, 2,  5);
-DEFINE_PARAM(MultiCutMovesToTry,  3, 2,  6);
-DEFINE_PARAM(MultiCutCutoffCount, 3, 2,  5);
-
 DEFINE_PARAM(ReductionStatOffset, 6877, 5000, 10000);
 DEFINE_PARAM(ReductionStatDiv, 15, 5, 30);
 
@@ -1653,59 +1646,6 @@ ScoreType Search::NegaMax(ThreadData& thread, NodeInfo* node, SearchContext& ctx
                         }
                     }
                 }
-            }
-
-            // Multi-Cut pruning
-            // If C of the first M moves all fail high at a shallowly reduced
-            // depth we almost certainly are at a cut-node; return a soft lower
-            // bound (beta-1) rather than an exact score so callers can correctly
-            // raise alpha and continue their own search.
-            if (node->depth >= MultiCutMinDepth &&
-                !node->isNullMove &&
-                eval >= beta)
-            {
-                const int16_t mcDepth = static_cast<int16_t>(node->depth - MultiCutReduction);
-
-                NodeInfo& mcChild = *(node + 1);
-                MovePicker mcPicker(position, thread.moveOrderer, nullptr, ttEntry.move, true);
-
-                int32_t mcMovesTried  = 0;
-                int32_t mcCutoffs     = 0;
-                Move    mcMove;
-                int32_t mcMoveScore;
-
-                while (mcCutoffs < MultiCutCutoffCount &&
-                       mcMovesTried < MultiCutMovesToTry &&
-                       mcPicker.PickMove(*node, mcMove, mcMoveScore))
-                {
-                    mcChild.Clear();
-                    mcChild.position = position;
-                    mcChild.ply      = node->ply + 1;
-                    mcChild.pvIndex  = node->pvIndex;
-                    mcChild.depth    = mcDepth;
-                    mcChild.alpha    = ScoreType(-beta);
-                    mcChild.beta     = ScoreType(-beta + 1);
-                    mcChild.isCutNode = true;
-                    mcChild.nnContext.MarkAsDirty();
-
-                    if (!mcChild.position.DoMove(mcMove, mcChild.nnContext))
-                        continue;
-
-                    mcMovesTried++;
-
-                    mcChild.position.ComputeThreats(mcChild.threats);
-                    mcChild.isInCheck    = mcChild.threats.allThreats & mcChild.position.GetCurrentSideKingSquare();
-                    mcChild.previousMove = mcMove;
-                    mcChild.staticEval   = InvalidValue;
-
-                    const ScoreType mcScore = -NegaMax<NodeType::NonPV>(thread, &mcChild, ctx);
-
-                    if (mcScore >= beta)
-                        mcCutoffs++;
-                }
-
-                if (mcCutoffs >= MultiCutCutoffCount)
-                    return ScoreType(beta - 1); // soft fail-high: callers see a lower-bound cut
             }
 
             // Probcut

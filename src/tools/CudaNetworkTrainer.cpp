@@ -660,7 +660,7 @@ bool CudaNetworkTrainer::Train()
     InitNetwork();
 
     if (!UnpackNetwork(GetLatestNetworkName("").c_str()))
-        std::cout << "No previous network found. Starting from randomly initialized network..." << std::endl;
+        return false;
 
     // Copy unpacked weights to CUDA
     m_cudaNetwork.CopyWeightsFromHost(m_featureTransformerWeights, m_lastLayerWeights);
