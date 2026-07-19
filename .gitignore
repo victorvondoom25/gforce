@@ -1,3 +1,5 @@
 build/
 *.nnue
 data/
+*.log
+*.pgn
