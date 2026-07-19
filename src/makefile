@@ -1,7 +1,7 @@
 EXE                = geforce
 VERSION            := $(strip $(file < ../version.txt))
 EXE_NAME           = $(EXE)-$(VERSION)
-DEFAULT_EVALFILE   = ../data/neuralNets/gforce-01.nnue
+DEFAULT_EVALFILE   = ../data/neuralNets/gforce-20.nnue
 EVALFILE           = $(DEFAULT_EVALFILE)
 NET_VERSION        = $(basename $(notdir $(DEFAULT_EVALFILE)))
 NET_DOWNLOAD_URL   = https://github.com/Witek902/G-ForceZero-Nets/releases/download/$(NET_VERSION)/$(notdir $(DEFAULT_EVALFILE))

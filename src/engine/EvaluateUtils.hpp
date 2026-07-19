@@ -15,7 +15,7 @@ inline std::string GetLatestNetworkName(const std::string& path) {
             }
         }
     }
-    if (maxVersion == 0) return "gforce-01.nnue";
+    if (maxVersion == 0) return "gforce-20.nnue";
     char buf[32];
     snprintf(buf, sizeof(buf), "gforce-%02d.nnue", maxVersion);
     return std::string(buf);
