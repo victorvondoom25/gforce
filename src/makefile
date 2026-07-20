@@ -4,7 +4,7 @@ EXE_NAME           = $(EXE)-$(VERSION)
 DEFAULT_EVALFILE   = ../data/neuralNets/gforce.nnue
 EVALFILE           = $(DEFAULT_EVALFILE)
 CC                 = g++
-SRC                = $(wildcard engine/*.cpp) engine/syzygy/tbprobe.cpp
+SRC                = $(wildcard engine/*.cpp) $(filter-out tools/CudaNetworkTrainer.cpp, $(wildcard tools/*.cpp)) engine/syzygy/tbprobe.cpp
 OBJ                = $(SRC:.cpp=.o)
 
 ifeq ($(OS), Windows_NT)
