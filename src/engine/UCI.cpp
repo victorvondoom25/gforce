@@ -31,7 +31,7 @@
 #elif defined(CONFIGURATION_DEBUG)
 #define ConfigurationStr " DEBUG"
 #else
-#error "Unknown configuration"
+#define ConfigurationStr ""
 #endif
 
 #if defined(ENABLE_TUNING)
@@ -40,7 +40,7 @@
 #define TuningStr ""
 #endif
 
-static const char* c_EngineName = "G-ForceZero " GEFORCE_VERSION " " ArchitectureStr ConfigurationStr TuningStr;
+static const std::string c_EngineName = std::string("G-ForceZero ") + GEFORCE_VERSION + " " + ArchitectureStr + ConfigurationStr + TuningStr;
 
 
 // TODO set TT size based on current memory usage / total memory size

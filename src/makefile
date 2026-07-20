@@ -3,8 +3,6 @@ VERSION            := $(strip $(file < ../version.txt))
 EXE_NAME           = $(EXE)-$(VERSION)
 DEFAULT_EVALFILE   = ../data/neuralNets/gforce.nnue
 EVALFILE           = $(DEFAULT_EVALFILE)
-NET_VERSION        = $(basename $(notdir $(DEFAULT_EVALFILE)))
-NET_DOWNLOAD_URL   = https://github.com/Witek902/G-ForceZero-Nets/releases/download/$(NET_VERSION)/$(notdir $(DEFAULT_EVALFILE))
 CC                 = g++
 SRC                = $(wildcard backend/*.cpp) $(wildcard frontend/*.cpp) backend/syzygy/tbprobe.cpp
 OBJ                = $(SRC:.cpp=.o)
@@ -64,15 +62,9 @@ AVX512FLAGS   = $(AVX2FLAGS) -mavx512f -mavx512bw -mavx512dq -DUSE_AVX512
 	$(CC) -march=native $(AVX2FLAGS) -c $< -o $@
 
 # for OpenBench
-ob: $(DEFAULT_EVALFILE) $(OBJ)
+ob: $(OBJ)
 	$(CC) $(OBJ) -march=native $(AVX2FLAGS) -o $(EXE)$(EXT)
 	$(CLEAN_OBJS)
-
-# download the default net file if not present (needed for embedding via INCBIN)
-$(DEFAULT_EVALFILE):
-	@echo Downloading neural network $(notdir $@) from $(NET_DOWNLOAD_URL)...
-	@$(MKDIR_NET_DIR)
-	@curl -fsSL -o $@ $(NET_DOWNLOAD_URL) && echo Download complete: $@
 
 bmi2:
 	$(CC) $(SRC) -march=core-avx2 $(BMI2FLAGS) -o $(EXE_NAME)-x64-bmi2$(EXT)

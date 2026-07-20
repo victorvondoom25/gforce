@@ -216,42 +216,26 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR})
 
-# Download neural net to data/neuralNets/ once (shared across all build dirs and configurations)
+# Neural net should be placed in data/neuralNets/
 set(DEFAULT_NEURAL_NET_FILE_NAME gforce.nnue)
-set(NET_VERSION "eval-82-383B")
-set(NET_DOWNLOAD_URL "https://github.com/Witek902/G-ForceZero-Nets/releases/download/${NET_VERSION}/${DEFAULT_NEURAL_NET_FILE_NAME}")
 set(NET_SOURCE "${CMAKE_SOURCE_DIR}/data/neuralNets/${DEFAULT_NEURAL_NET_FILE_NAME}")
 
 if(NOT EXISTS "${NET_SOURCE}")
-    message(STATUS "Downloading neural network ${DEFAULT_NEURAL_NET_FILE_NAME} from ${NET_DOWNLOAD_URL} ...")
-    file(MAKE_DIRECTORY "${CMAKE_SOURCE_DIR}/data/neuralNets")
-    file(DOWNLOAD
-        "${NET_DOWNLOAD_URL}"
-        "${NET_SOURCE}"
-        SHOW_PROGRESS
-        TLS_VERIFY ON
-        STATUS DOWNLOAD_STATUS)
-    list(GET DOWNLOAD_STATUS 0 STATUS_CODE)
-    if(NOT STATUS_CODE EQUAL 0)
-        list(GET DOWNLOAD_STATUS 1 ERROR_MESSAGE)
-        file(REMOVE "${NET_SOURCE}")
-        message(FATAL_ERROR "Failed to download neural network: ${ERROR_MESSAGE}")
-    endif()
-    message(STATUS "Neural network downloaded successfully")
-else()
-    message(STATUS "Neural network ${DEFAULT_NEURAL_NET_FILE_NAME} already present, skipping download")
+    message(WARNING "Neural network ${DEFAULT_NEURAL_NET_FILE_NAME} not found at ${NET_SOURCE}. Please provide it manually.")
 endif()
 
 # Copy net to build output — for multi-config generators (Visual Studio) copy into each config subdir
 get_property(IS_MULTI_CONFIG GLOBAL PROPERTY GENERATOR_IS_MULTI_CONFIG)
-if(IS_MULTI_CONFIG)
-    foreach(CONFIG_TYPE ${CMAKE_CONFIGURATION_TYPES})
-        file(MAKE_DIRECTORY "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${CONFIG_TYPE}")
-        file(COPY_FILE "${NET_SOURCE}" "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${CONFIG_TYPE}/${DEFAULT_NEURAL_NET_FILE_NAME}" ONLY_IF_DIFFERENT)
-    endforeach()
-else()
-    file(MAKE_DIRECTORY "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}")
-    file(COPY_FILE "${NET_SOURCE}" "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${DEFAULT_NEURAL_NET_FILE_NAME}" ONLY_IF_DIFFERENT)
+if(EXISTS "${NET_SOURCE}")
+    if(IS_MULTI_CONFIG)
+        foreach(CONFIG_TYPE ${CMAKE_CONFIGURATION_TYPES})
+            file(MAKE_DIRECTORY "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${CONFIG_TYPE}")
+            file(COPY_FILE "${NET_SOURCE}" "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${CONFIG_TYPE}/${DEFAULT_NEURAL_NET_FILE_NAME}" ONLY_IF_DIFFERENT)
+        endforeach()
+    else()
+        file(MAKE_DIRECTORY "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}")
+        file(COPY_FILE "${NET_SOURCE}" "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${DEFAULT_NEURAL_NET_FILE_NAME}" ONLY_IF_DIFFERENT)
+    endif()
 endif()
 
 add_subdirectory("src")
