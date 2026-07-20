@@ -4,7 +4,7 @@ EXE_NAME           = $(EXE)-$(VERSION)
 DEFAULT_EVALFILE   = ../data/neuralNets/gforce.nnue
 EVALFILE           = $(DEFAULT_EVALFILE)
 CC                 = g++
-SRC                = $(wildcard backend/*.cpp) $(wildcard frontend/*.cpp) backend/syzygy/tbprobe.cpp
+SRC                = $(wildcard engine/*.cpp) engine/syzygy/tbprobe.cpp
 OBJ                = $(SRC:.cpp=.o)
 
 ifeq ($(OS), Windows_NT)
@@ -14,7 +14,7 @@ else
 endif
 
 WFLAGS = -Wall -Wno-unused-function -Wno-switch -Wno-attributes -Wno-missing-field-initializers -Wno-multichar
-FLAGS = $(WFLAGS) -g1 -flto -flto-partition=one -std=c++20 -O3 -funroll-loops -fno-rtti -fno-exceptions -fomit-frame-pointer -fno-math-errno -fno-trapping-math -fno-stack-protector
+FLAGS = $(WFLAGS) -g1 -flto -flto-partition=one -std=c++20 -O3 -funroll-loops -fno-rtti -fomit-frame-pointer -fno-math-errno -fno-trapping-math -fno-stack-protector
 LIBS =
 
 ifeq ($(EXT), .exe)
