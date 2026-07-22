@@ -4,3 +4,4 @@ data/
 *.pgn
 *.dat
 *.dat
+*.o

@@ -409,14 +409,18 @@ void MoveOrderer::ScoreMoves(
             if (const PieceSquareHistory* h = node.continuationHistories[3]) score += (*h)[pieceTo] * ContWeight3 / 1024;
             if (const PieceSquareHistory* h = node.continuationHistories[5]) score += (*h)[pieceTo] * ContWeight5 / 1024;
 
+            const Bitboard enemyQueens = (color == 0) ? pos.Blacks().queens : pos.Whites().queens;
             switch (move.GetPiece())
             {
                 case Piece::Knight: [[fallthrough]];
                 case Piece::Bishop:
+                    if (move.GetPiece() == Piece::Knight && (enemyQueens & Bitboard::GetKnightAttacks(move.ToSquare()))) score += QueenThreatEscapeBonus;
+                    if (move.GetPiece() == Piece::Bishop && (enemyQueens & Bitboard::GetBishopAttacks(move.ToSquare()))) score += QueenThreatEscapeBonus;
                     if (node.threats.attackedByPawns & move.FromSquare())   score += MinorThreatEscapeBonus;
                     if (node.threats.attackedByPawns & move.ToSquare())     score -= MinorThreatEnterMalus;
                     break;
                 case Piece::Rook:
+                    if (enemyQueens & Bitboard::GetRookAttacks(move.ToSquare())) score += QueenThreatEscapeBonus;
                     if (node.threats.attackedByMinors & move.FromSquare())  score += RookThreatEscapeBonus;
                     if (node.threats.attackedByMinors & move.ToSquare())    score -= RookThreatEnterMalus;
                     break;
